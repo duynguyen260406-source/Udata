@@ -10,17 +10,28 @@ Repo này chứa các **spike script khảo sát** (throwaway) nhằm xác đị
 
 ```
 Udata_1/
-├── spikes/                  # Script khảo sát, mỗi file = 1 nguồn
-│   ├── _common.py           # Helper dùng chung (User-Agent, get(), save_sample())
-│   ├── spike_vndirect.py    # VNDirect finfo-api (JSON API ẩn)
-│   ├── spike_vneconomy.py   # VnEconomy (RSS)
+├── spikes/                  # Script khảo sát, mỗi file = 1 nguồn hoặc 1 loại dữ liệu
+│   ├── _common.py               # Helper dùng chung (User-Agent, get(), save_sample(), pdf_probe())
+│   │
+│   │   # --- Nhóm 1: source spikes ---
+│   ├── spike_vndirect.py        # VNDirect finfo-api (JSON API ẩn)
+│   ├── spike_vneconomy.py       # VnEconomy (RSS + trafilatura fallback)
 │   ├── spike_tinnhanhchungkhoan.py  # Tin nhanh chứng khoán (RSS)
-│   ├── spike_vietstock.py   # Vietstock (RSS)
-│   ├── spike_baodautu.py    # Báo Đầu tư (HTML + trafilatura)
-│   ├── spike_cbtt.py        # CBTT: HOSE (JSON) + HNX + VSDC (Playwright)
-│   ├── spike_compliance.py  # Kiểm tra robots.txt của từng nguồn
-│   ├── spike_ticker.py      # Thử nghiệm resolve mã chứng khoán
-│   └── samples/             # Raw response mẫu đã lưu (commit vào repo)
+│   ├── spike_vietstock.py       # Vietstock (RSS)
+│   ├── spike_baodautu.py        # Báo Đầu tư (HTML tĩnh + trafilatura)
+│   ├── spike_cbtt.py            # CBTT: HOSE JSON + HNX + VSDC (--playwright flag)
+│   ├── spike_hnx_vsdc.py        # HNX POST endpoints ẩn + VSDC Playwright
+│   │
+│   │   # --- Nhóm 2: data-type spikes ---
+│   ├── spike_dt_news.py         # Tin tức: RSS + trích xuất bài viết (trafilatura)
+│   ├── spike_dt_cbtt.py         # CBTT: JSON metadata + tải PDF đính kèm
+│   ├── spike_dt_research.py     # Báo cáo CTCK: gap documentation + metadata khuyến nghị
+│   ├── spike_dt_resolution.py   # Nghị quyết/ĐHĐCĐ: PDF + pdfplumber (selectable vs scan)
+│   │
+│   │   # --- Nhóm 3: tiện ích ---
+│   ├── spike_ticker.py          # Tổng hợp tin tức + CBTT + khuyến nghị cho 1 mã CK
+│   ├── spike_compliance.py      # Kiểm tra robots.txt tất cả nguồn
+│   └── samples/                 # Raw response mẫu đã lưu (commit vào repo)
 │       ├── vndirect.json
 │       ├── vneconomy.xml
 │       ├── tinnhanhchungkhoan.xml
@@ -84,36 +95,100 @@ playwright install chromium
 
 ## Chạy các spike script
 
-Tất cả lệnh chạy **từ thư mục gốc `Udata_1\`**.
+Tất cả lệnh chạy **từ thư mục gốc `Udata_1\`**. Mỗi spike in ra terminal: status HTTP, các trường quan sát được, và đường dẫn file raw mẫu đã lưu vào `spikes/samples/`.
 
+### Nhóm 1 — Khảo sát nguồn (source spikes)
+
+#### `spike_vndirect.py` — VNDirect finfo-api (JSON API ẩn)
+Probe các endpoint JSON của VNDirect: tin tức toàn thị trường, tin theo ticker, và chỉ CBTT.
 ```powershell
-# VNDirect — JSON API ẩn (không cần browser)
 .\.venv\Scripts\python.exe spikes\spike_vndirect.py
-
-# VnEconomy — RSS feed
-.\.venv\Scripts\python.exe spikes\spike_vneconomy.py
-
-# Tin nhanh chứng khoán — RSS feed
-.\.venv\Scripts\python.exe spikes\spike_tinnhanhchungkhoan.py
-
-# Vietstock — RSS feed
-.\.venv\Scripts\python.exe spikes\spike_vietstock.py
-
-# Báo Đầu tư — HTML tĩnh + trafilatura
-.\.venv\Scripts\python.exe spikes\spike_baodautu.py
-
-# CBTT HOSE + HNX + VSDC
-.\.venv\Scripts\python.exe spikes\spike_cbtt.py              # HOSE JSON + thử HNX/VSDC
-.\.venv\Scripts\python.exe spikes\spike_cbtt.py --playwright # Bắt XHR để tìm API HOSE
-
-# Kiểm tra robots.txt
-.\.venv\Scripts\python.exe spikes\spike_compliance.py
 ```
 
-Mỗi spike sẽ in ra terminal:
-- Kết quả GET (status, content-type, kích thước)
-- 1–2 bản tin mẫu với các trường quan sát được
-- Đường dẫn file raw mẫu đã lưu vào `spikes/samples/`
+#### `spike_vneconomy.py` — VnEconomy (RSS + trafilatura fallback)
+Fetch RSS chứng khoán VnEconomy, thử trafilatura nếu RSS không đủ nội dung.
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_vneconomy.py
+```
+
+#### `spike_tinnhanhchungkhoan.py` — Tin nhanh chứng khoán (RSS)
+Fetch RSS `home.rss` của tinnhanhchungkhoan.vn (không dùng `/api/` — robots chặn).
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_tinnhanhchungkhoan.py
+```
+
+#### `spike_vietstock.py` — Vietstock (RSS)
+Fetch RSS chuyên mục Chứng khoán (channel 144) của Vietstock.
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_vietstock.py
+```
+
+#### `spike_baodautu.py` — Báo Đầu tư (HTML tĩnh + trafilatura)
+Scrape trang chuyên mục tài chính-chứng khoán, bóc nội dung bài bằng trafilatura (RSS rỗng).
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_baodautu.py
+```
+
+#### `spike_cbtt.py` — CBTT HOSE / HNX / VSDC
+Khảo sát 3 cổng công bố thông tin. Mặc định dùng httpx; flag `--playwright` bắt XHR để xác nhận endpoint HOSE.
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_cbtt.py              # HOSE JSON + thử HNX + VSDC tĩnh
+.\.venv\Scripts\python.exe spikes\spike_cbtt.py --playwright # Bắt XHR qua browser (cần: playwright install chromium)
+```
+
+#### `spike_hnx_vsdc.py` — HNX POST endpoints + VSDC (Playwright)
+Xác nhận chiến lược lấy CBTT HNX qua POST endpoints ẩn (ASP.NET SPA, không cần JS); VSDC cần Playwright.
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_hnx_vsdc.py
+```
+
+---
+
+### Nhóm 2 — Khảo sát theo loại dữ liệu (data-type spikes)
+
+#### `spike_dt_news.py` — Tin tức: RSS + trích xuất bài viết đầy đủ
+Lấy 1 mục từ RSS VnEconomy, fetch trang bài, bóc title/author/date/body bằng trafilatura. In độ dài body (không in toàn văn — tuân thủ bản quyền).
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_dt_news.py
+```
+
+#### `spike_dt_cbtt.py` — CBTT: JSON metadata + tải PDF đính kèm
+Lấy record CBTT đầy đủ từ HOSE (api.hsx.vn) và 1 bản ghi từ VNDirect có PDF đính kèm, tải thử PDF.
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_dt_cbtt.py
+```
+
+#### `spike_dt_research.py` — Báo cáo CTCK: gap documentation
+Ghi nhận việc không có nguồn 🟢/🟡 nào cung cấp PDF báo cáo phân tích đầy đủ. Lấy metadata khuyến nghị (firm, rating, target price) từ VNDirect làm điểm gần nhất.
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_dt_research.py
+```
+
+#### `spike_dt_resolution.py` — Nghị quyết HĐQT / ĐHĐCĐ: PDF + pdfplumber
+Lấy 1 bản tin loại `resolutions` từ VNDirect, tải PDF đính kèm, dùng pdfplumber kiểm tra: số trang, text có selectable không (hay là scan cần OCR), 200 ký tự đầu.
+
+> Yêu cầu thêm: `pip install pdfplumber`
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_dt_resolution.py
+```
+
+---
+
+### Nhóm 3 — Tiện ích
+
+#### `spike_ticker.py` — Tổng hợp dữ liệu cho 1 mã chứng khoán
+Gộp 3 loại dữ liệu về 1 ticker từ VNDirect: tin tức, CBTT (có PDF), và khuyến nghị. Nhận ticker làm argument dòng lệnh.
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_ticker.py VCB   # tra cứu mã VCB
+.\.venv\Scripts\python.exe spikes\spike_ticker.py HPG   # tra cứu mã HPG
+.\.venv\Scripts\python.exe spikes\spike_ticker.py       # mặc định: VCB
+```
+
+#### `spike_compliance.py` — Kiểm tra robots.txt tất cả nguồn
+Fetch robots.txt của mọi domain trong danh sách (1 request/host), lưu vào `spikes/samples/robots/`, in ra các nhóm `User-agent` và `Disallow` để đánh giá.
+```powershell
+.\.venv\Scripts\python.exe spikes\spike_compliance.py
+```
 
 ---
 
