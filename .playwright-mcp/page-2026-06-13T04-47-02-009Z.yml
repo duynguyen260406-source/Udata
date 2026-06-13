@@ -1,0 +1,630 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: /Home/Language?culture=en-GB&returnUrl=home.html
+            - img [ref=e11]
+          - textbox "Nhập từ khóa tìm kiếm" [ref=e13]
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "HNX" [ref=e17] [cursor=pointer]:
+              - /url: /hnx.html
+          - listitem [ref=e18]:
+            - link "ĐẤU GIÁ" [ref=e19] [cursor=pointer]:
+              - /url: /dau-gia.html
+          - listitem [ref=e20]:
+            - link "CỔ PHIẾU" [ref=e21] [cursor=pointer]:
+              - /url: /co-phieu.html
+          - listitem [ref=e22]:
+            - link "TRÁI PHIẾU" [ref=e23] [cursor=pointer]:
+              - /url: /trai-phieu.html
+          - listitem [ref=e24]:
+            - link "CHỨNG KHOÁN PHÁI SINH" [ref=e25] [cursor=pointer]:
+              - /url: /phai-sinh.html
+          - listitem [ref=e26]:
+            - link "VĂN BẢN PHÁP LÝ" [ref=e27] [cursor=pointer]:
+              - /url: /van-ban-phap-ly.html
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: HNX30
+            - generic [ref=e31]: "516.24"
+            - generic [ref=e33]: "-0.47"
+            - generic [ref=e34]: (-0.09%)
+          - generic [ref=e35]:
+            - generic [ref=e36]: HNX Index
+            - generic [ref=e37]: "302.49"
+            - generic [ref=e39]: "2.4"
+            - generic [ref=e40]: (0.8%)
+          - generic [ref=e41]:
+            - generic [ref=e42]: UPCoM Index
+            - generic [ref=e43]: "126.35"
+            - generic [ref=e45]: "-0.06"
+            - generic [ref=e46]: (-0.05%)
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]: BVS
+        - generic [ref=e52]: "25.100"
+        - generic [ref=e54]: "-100"
+        - generic [ref=e55]: (-0,4%)
+      - generic [ref=e56]:
+        - generic [ref=e57]: CAP
+        - generic [ref=e58]: "46.700"
+        - generic [ref=e60]: "0"
+        - generic [ref=e61]: (0%)
+      - generic [ref=e62]:
+        - generic [ref=e63]: CEO
+        - generic [ref=e64]: "15.100"
+        - generic [ref=e66]: "0"
+        - generic [ref=e67]: (0%)
+      - generic [ref=e68]:
+        - generic [ref=e69]: DP3
+        - generic [ref=e70]: "61.900"
+        - generic [ref=e72]: "-500"
+        - generic [ref=e73]: (-0,8%)
+      - generic [ref=e74]:
+        - generic [ref=e75]: DTD
+        - generic [ref=e76]: "14.700"
+        - generic [ref=e78]: "0"
+        - generic [ref=e79]: (0%)
+      - generic [ref=e80]:
+        - generic [ref=e81]: DVM
+        - generic [ref=e82]: "6.900"
+        - generic [ref=e84]: "0"
+        - generic [ref=e85]: (0%)
+      - generic [ref=e86]:
+        - generic [ref=e87]: DXP
+        - generic [ref=e88]: "12.700"
+        - generic [ref=e90]: "0"
+        - generic [ref=e91]: (0%)
+      - generic [ref=e92]:
+        - generic [ref=e93]: HUT
+        - generic [ref=e94]: "15.500"
+        - generic [ref=e96]: "-100"
+        - generic [ref=e97]: (-0,64%)
+      - generic [ref=e98]:
+        - generic [ref=e99]: IDC
+        - generic [ref=e100]: "43.500"
+        - generic [ref=e102]: "0"
+        - generic [ref=e103]: (0%)
+      - generic [ref=e104]:
+        - generic [ref=e105]: IDV
+        - generic [ref=e106]: "22.000"
+        - generic [ref=e108]: "-200"
+        - generic [ref=e109]: (-0,9%)
+      - generic [ref=e110]:
+        - generic [ref=e111]: L14
+        - generic [ref=e112]: "21.500"
+        - generic [ref=e114]: "0"
+        - generic [ref=e115]: (0%)
+      - generic [ref=e116]:
+        - generic [ref=e117]: L18
+        - generic [ref=e118]: "21.700"
+        - generic [ref=e120]: "0"
+        - generic [ref=e121]: (0%)
+      - generic [ref=e122]:
+        - generic [ref=e123]: LAS
+        - generic [ref=e124]: "14.400"
+        - generic [ref=e126]: "-100"
+        - generic [ref=e127]: (-0,69%)
+      - generic [ref=e128]:
+        - generic [ref=e129]: LHC
+        - generic [ref=e130]: "90.700"
+        - generic [ref=e132]: "-600"
+        - generic [ref=e133]: (-0,66%)
+      - generic [ref=e134]:
+        - generic [ref=e135]: MBS
+        - generic [ref=e136]: "19.200"
+        - generic [ref=e138]: "200"
+        - generic [ref=e139]: (1,05%)
+      - generic [ref=e140]:
+        - generic [ref=e141]: NDN
+        - generic [ref=e142]: "10.600"
+        - generic [ref=e144]: "0"
+        - generic [ref=e145]: (0%)
+      - generic [ref=e146]:
+        - generic [ref=e147]: NTP
+        - generic [ref=e148]: "49.900"
+        - generic [ref=e150]: "-100"
+        - generic [ref=e151]: (-0,2%)
+      - generic [ref=e152]:
+        - generic [ref=e153]: PLC
+        - generic [ref=e154]: "21.000"
+        - generic [ref=e156]: "-100"
+        - generic [ref=e157]: (-0,47%)
+      - generic [ref=e158]:
+        - generic [ref=e159]: PSD
+        - generic [ref=e160]: "16.000"
+        - generic [ref=e162]: "0"
+        - generic [ref=e163]: (0%)
+      - generic [ref=e164]:
+        - generic [ref=e165]: PVB
+        - generic [ref=e166]: "25.100"
+        - generic [ref=e168]: "-200"
+        - generic [ref=e169]: (-0,79%)
+      - generic [ref=e170]:
+        - generic [ref=e171]: PVC
+        - generic [ref=e172]: "14.300"
+        - generic [ref=e174]: "-100"
+        - generic [ref=e175]: (-0,69%)
+      - generic [ref=e176]:
+        - generic [ref=e177]: PVS
+        - generic [ref=e178]: "38.500"
+        - generic [ref=e180]: "-100"
+        - generic [ref=e181]: (-0,26%)
+      - generic [ref=e182]:
+        - generic [ref=e183]: SHS
+        - generic [ref=e184]: "18.200"
+        - generic [ref=e186]: "-100"
+        - generic [ref=e187]: (-0,55%)
+      - generic [ref=e188]:
+        - generic [ref=e189]: SLS
+        - generic [ref=e190]: "150.000"
+        - generic [ref=e192]: "2.000"
+        - generic [ref=e193]: (1,35%)
+      - generic [ref=e194]:
+        - generic [ref=e195]: TMB
+        - generic [ref=e196]: "52.100"
+        - generic [ref=e198]: "-300"
+        - generic [ref=e199]: (-0,57%)
+      - generic [ref=e200]:
+        - generic [ref=e201]: TNG
+        - generic [ref=e202]: "18.900"
+        - generic [ref=e204]: "-100"
+        - generic [ref=e205]: (-0,53%)
+      - generic [ref=e206]:
+        - generic [ref=e207]: TVD
+        - generic [ref=e208]: "9.400"
+        - generic [ref=e210]: "-100"
+        - generic [ref=e211]: (-1,05%)
+      - generic [ref=e212]:
+        - generic [ref=e213]: VC3
+        - generic [ref=e214]: "26.600"
+        - generic [ref=e216]: "300"
+        - generic [ref=e217]: (1,14%)
+      - generic [ref=e218]:
+        - generic [ref=e219]: VCS
+        - generic [ref=e220]: "38.800"
+        - generic [ref=e222]: "1.200"
+        - generic [ref=e223]: (3,19%)
+      - generic [ref=e224]:
+        - generic [ref=e225]: VFS
+        - generic [ref=e226]: "10.300"
+        - generic [ref=e228]: "0"
+        - generic [ref=e229]: (0%)
+      - generic [ref=e230]:
+        - generic [ref=e231]: BVS
+        - generic [ref=e232]: "25.100"
+        - generic [ref=e234]: "-100"
+        - generic [ref=e235]: (-0,4%)
+      - generic [ref=e236]:
+        - generic [ref=e237]: CAP
+        - generic [ref=e238]: "46.700"
+        - generic [ref=e240]: "0"
+        - generic [ref=e241]: (0%)
+      - generic [ref=e242]:
+        - generic [ref=e243]: CEO
+        - generic [ref=e244]: "15.100"
+        - generic [ref=e246]: "0"
+        - generic [ref=e247]: (0%)
+      - generic [ref=e248]:
+        - generic [ref=e249]: DP3
+        - generic [ref=e250]: "61.900"
+        - generic [ref=e252]: "-500"
+        - generic [ref=e253]: (-0,8%)
+      - generic [ref=e254]:
+        - generic [ref=e255]: DTD
+        - generic [ref=e256]: "14.700"
+        - generic [ref=e258]: "0"
+        - generic [ref=e259]: (0%)
+      - generic [ref=e260]:
+        - generic [ref=e261]: DVM
+        - generic [ref=e262]: "6.900"
+        - generic [ref=e264]: "0"
+        - generic [ref=e265]: (0%)
+      - generic [ref=e266]:
+        - generic [ref=e267]: DXP
+        - generic [ref=e268]: "12.700"
+        - generic [ref=e270]: "0"
+        - generic [ref=e271]: (0%)
+      - generic [ref=e272]:
+        - generic [ref=e273]: HUT
+        - generic [ref=e274]: "15.500"
+        - generic [ref=e276]: "-100"
+        - generic [ref=e277]: (-0,64%)
+      - generic [ref=e278]:
+        - generic [ref=e279]: IDC
+        - generic [ref=e280]: "43.500"
+        - generic [ref=e282]: "0"
+        - generic [ref=e283]: (0%)
+      - generic [ref=e284]:
+        - generic [ref=e285]: IDV
+        - generic [ref=e286]: "22.000"
+        - generic [ref=e288]: "-200"
+        - generic [ref=e289]: (-0,9%)
+      - generic [ref=e290]:
+        - generic [ref=e291]: L14
+        - generic [ref=e292]: "21.500"
+        - generic [ref=e294]: "0"
+        - generic [ref=e295]: (0%)
+      - generic [ref=e296]:
+        - generic [ref=e297]: L18
+        - generic [ref=e298]: "21.700"
+        - generic [ref=e300]: "0"
+        - generic [ref=e301]: (0%)
+      - generic [ref=e302]:
+        - generic [ref=e303]: LAS
+        - generic [ref=e304]: "14.400"
+        - generic [ref=e306]: "-100"
+        - generic [ref=e307]: (-0,69%)
+      - generic [ref=e308]:
+        - generic [ref=e309]: LHC
+        - generic [ref=e310]: "90.700"
+        - generic [ref=e312]: "-600"
+        - generic [ref=e313]: (-0,66%)
+      - generic [ref=e314]:
+        - generic [ref=e315]: MBS
+        - generic [ref=e316]: "19.200"
+        - generic [ref=e318]: "200"
+        - generic [ref=e319]: (1,05%)
+      - generic [ref=e320]:
+        - generic [ref=e321]: NDN
+        - generic [ref=e322]: "10.600"
+        - generic [ref=e324]: "0"
+        - generic [ref=e325]: (0%)
+      - generic [ref=e326]:
+        - generic [ref=e327]: NTP
+        - generic [ref=e328]: "49.900"
+        - generic [ref=e330]: "-100"
+        - generic [ref=e331]: (-0,2%)
+      - generic [ref=e332]:
+        - generic [ref=e333]: PLC
+        - generic [ref=e334]: "21.000"
+        - generic [ref=e336]: "-100"
+        - generic [ref=e337]: (-0,47%)
+      - generic [ref=e338]:
+        - generic [ref=e339]: PSD
+        - generic [ref=e340]: "16.000"
+        - generic [ref=e342]: "0"
+        - generic [ref=e343]: (0%)
+      - generic [ref=e344]:
+        - generic [ref=e345]: PVB
+        - generic [ref=e346]: "25.100"
+        - generic [ref=e348]: "-200"
+        - generic [ref=e349]: (-0,79%)
+      - generic [ref=e350]:
+        - generic [ref=e351]: PVC
+        - generic [ref=e352]: "14.300"
+        - generic [ref=e354]: "-100"
+        - generic [ref=e355]: (-0,69%)
+      - generic [ref=e356]:
+        - generic [ref=e357]: PVS
+        - generic [ref=e358]: "38.500"
+        - generic [ref=e360]: "-100"
+        - generic [ref=e361]: (-0,26%)
+      - generic [ref=e362]:
+        - generic [ref=e363]: SHS
+        - generic [ref=e364]: "18.200"
+        - generic [ref=e366]: "-100"
+        - generic [ref=e367]: (-0,55%)
+      - generic [ref=e368]:
+        - generic [ref=e369]: SLS
+        - generic [ref=e370]: "150.000"
+        - generic [ref=e372]: "2.000"
+        - generic [ref=e373]: (1,35%)
+      - generic [ref=e374]:
+        - generic [ref=e375]: TMB
+        - generic [ref=e376]: "52.100"
+        - generic [ref=e378]: "-300"
+        - generic [ref=e379]: (-0,57%)
+      - generic [ref=e380]:
+        - generic [ref=e381]: TNG
+        - generic [ref=e382]: "18.900"
+        - generic [ref=e384]: "-100"
+        - generic [ref=e385]: (-0,53%)
+      - generic [ref=e386]:
+        - generic [ref=e387]: TVD
+        - generic [ref=e388]: "9.400"
+        - generic [ref=e390]: "-100"
+        - generic [ref=e391]: (-1,05%)
+      - generic [ref=e392]:
+        - generic [ref=e393]: VC3
+        - generic [ref=e394]: "26.600"
+        - generic [ref=e396]: "300"
+        - generic [ref=e397]: (1,14%)
+      - generic [ref=e398]:
+        - generic [ref=e399]: VCS
+        - generic [ref=e400]: "38.800"
+        - generic [ref=e402]: "1.200"
+        - generic [ref=e403]: (3,19%)
+      - generic [ref=e404]:
+        - generic [ref=e405]: VFS
+        - generic [ref=e406]: "10.300"
+        - generic [ref=e408]: "0"
+        - generic [ref=e409]: (0%)
+  - generic [ref=e410]:
+    - list [ref=e412]:
+      - listitem [ref=e413]:
+        - link "Cổ phiếu" [ref=e414] [cursor=pointer]:
+          - /url: /co-phieu.html
+      - listitem [ref=e415]:
+        - link "> Cổ phiếu niêm yết" [ref=e416]:
+          - /url: javascript:;
+      - listitem [ref=e417]:
+        - link "> Thông tin công bố" [ref=e418]:
+          - /url: "#"
+    - generic [ref=e421]: Thông tin công bố
+    - generic [ref=e422]:
+      - list [ref=e424]:
+        - listitem [ref=e425] [cursor=pointer]: TIN TỪ SỞ
+        - listitem [ref=e426] [cursor=pointer]: TIN TỪ TỔ CHỨC PHÁT HÀNH
+        - listitem [ref=e427] [cursor=pointer]: TIN TỪ TCPH CHƯA GIAO DỊCH
+        - listitem [ref=e428] [cursor=pointer]: LỊCH THỰC HIỆN QUYỀN
+      - generic [ref=e429]:
+        - generic:
+          - list [ref=e430]:
+            - listitem [ref=e431]: Nhóm tin
+            - listitem [ref=e432]:
+              - button "Tất cả" [active] [ref=e434] [cursor=pointer]:
+                - generic [ref=e435]: Tất cả
+            - listitem [ref=e437]: Thời gian
+            - listitem [ref=e438]:
+              - generic [ref=e439]:
+                - textbox "Từ ngày" [ref=e440]
+                - img "Chọn ngày dd/mm/yyyy" [ref=e441]
+              - generic [ref=e442]:
+                - textbox "Đến ngày" [ref=e443]
+                - img "Chọn ngày dd/mm/yyyy" [ref=e444]
+          - list [ref=e445]:
+            - listitem [ref=e446]: Tiêu đề tin
+            - listitem [ref=e447]:
+              - textbox [ref=e448]
+            - listitem [ref=e449]: Mã chứng khoán
+            - listitem [ref=e450]:
+              - textbox "Mã chứng khoán" [ref=e451]
+          - list [ref=e452]:
+            - listitem [ref=e453]
+            - listitem [ref=e454]:
+              - button "Tìm kiếm" [ref=e455] [cursor=pointer]
+      - generic [ref=e457]:
+        - generic [ref=e459]:
+          - text: Hiển thị
+          - combobox [ref=e460]:
+            - option "10" [selected]
+            - option "20"
+            - option "30"
+            - option "40"
+            - option "50"
+          - text: bản ghi
+        - generic [ref=e461]:
+          - table [ref=e463]:
+            - rowgroup [ref=e464]:
+              - row "STT Ngày đăng tin Mã CK Tiêu đề tin File đính kèm" [ref=e465]:
+                - columnheader "STT" [ref=e466]
+                - columnheader "Ngày đăng tin" [ref=e467]
+                - columnheader "Mã CK" [ref=e468]
+                - columnheader "Tiêu đề tin" [ref=e469]
+                - columnheader "File đính kèm" [ref=e470]
+            - rowgroup [ref=e471]:
+              - row "1 12/06/2026 15:51 HNX Bản công bố thông tin về tổ chức niêm yết trái phiếu – CTCP Chứng khoán Kỹ thương (TCX126011)" [ref=e472]:
+                - cell "1" [ref=e473]
+                - cell "12/06/2026 15:51" [ref=e474]
+                - cell "HNX" [ref=e475]:
+                  - link "HNX" [ref=e476] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell "Bản công bố thông tin về tổ chức niêm yết trái phiếu – CTCP Chứng khoán Kỹ thương (TCX126011)" [ref=e477]:
+                  - link "Bản công bố thông tin về tổ chức niêm yết trái phiếu – CTCP Chứng khoán Kỹ thương (TCX126011)" [ref=e478] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=e479]:
+                  - link [ref=e480] [cursor=pointer]:
+                    - /url: javascript:;
+              - row "2 12/06/2026 15:26 HNX Quyết định chấp thuận niêm yết trái phiếu CTCP Chứng khoán Kỹ thương (TCX126011)" [ref=e481]:
+                - cell "2" [ref=e482]
+                - cell "12/06/2026 15:26" [ref=e483]
+                - cell "HNX" [ref=e484]:
+                  - link "HNX" [ref=e485] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell "Quyết định chấp thuận niêm yết trái phiếu CTCP Chứng khoán Kỹ thương (TCX126011)" [ref=e486]:
+                  - link "Quyết định chấp thuận niêm yết trái phiếu CTCP Chứng khoán Kỹ thương (TCX126011)" [ref=e487] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=e488]:
+                  - link [ref=e489] [cursor=pointer]:
+                    - /url: javascript:;
+              - row "3 12/06/2026 08:03 HNX Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 12/06/2026" [ref=e490]:
+                - cell "3" [ref=e491]
+                - cell "12/06/2026 08:03" [ref=e492]
+                - cell "HNX" [ref=e493]:
+                  - link "HNX" [ref=e494] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 12/06/2026" [ref=e495]:
+                  - link "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 12/06/2026" [ref=e496] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=e497]:
+                  - link [ref=e498] [cursor=pointer]:
+                    - /url: javascript:;
+              - row "4 11/06/2026 07:59 HNX Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 11/06/2026" [ref=e499]:
+                - cell "4" [ref=e500]
+                - cell "11/06/2026 07:59" [ref=e501]
+                - cell "HNX" [ref=e502]:
+                  - link "HNX" [ref=e503] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 11/06/2026" [ref=e504]:
+                  - link "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 11/06/2026" [ref=e505] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=e506]:
+                  - link [ref=e507] [cursor=pointer]:
+                    - /url: javascript:;
+              - row "5 10/06/2026 16:05 VBB123017 Thông báo có khả năng hủy niêm yết trái phiếu VBB123017" [ref=e508]:
+                - cell "5" [ref=e509]
+                - cell "10/06/2026 16:05" [ref=e510]
+                - cell "VBB123017" [ref=e511]:
+                  - link "VBB123017" [ref=e512] [cursor=pointer]:
+                    - /url: /cophieu-etfs/chi-tiet-chung-khoan-ny-vbb123017.html
+                - cell "Thông báo có khả năng hủy niêm yết trái phiếu VBB123017" [ref=e513]:
+                  - link "Thông báo có khả năng hủy niêm yết trái phiếu VBB123017" [ref=e514] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=e515]:
+                  - link [ref=e516] [cursor=pointer]:
+                    - /url: javascript:;
+              - row "6 10/06/2026 08:24 HNX Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 10/06/2026" [ref=e517]:
+                - cell "6" [ref=e518]
+                - cell "10/06/2026 08:24" [ref=e519]
+                - cell "HNX" [ref=e520]:
+                  - link "HNX" [ref=e521] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 10/06/2026" [ref=e522]:
+                  - link "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 10/06/2026" [ref=e523] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=e524]:
+                  - link [ref=e525] [cursor=pointer]:
+                    - /url: javascript:;
+              - row "7 09/06/2026 10:44 GIC Quyết định về việc chấp thuận thay đổi đăng ký niêm yết cổ phiếu" [ref=e526]:
+                - cell "7" [ref=e527]
+                - cell "09/06/2026 10:44" [ref=e528]
+                - cell "GIC" [ref=e529]:
+                  - link "GIC" [ref=e530] [cursor=pointer]:
+                    - /url: /cophieu-etfs/chi-tiet-chung-khoan-ny-gic.html
+                - cell "Quyết định về việc chấp thuận thay đổi đăng ký niêm yết cổ phiếu" [ref=e531]:
+                  - link "Quyết định về việc chấp thuận thay đổi đăng ký niêm yết cổ phiếu" [ref=e532] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=e533]:
+                  - link [ref=e534] [cursor=pointer]:
+                    - /url: javascript:;
+              - row "8 09/06/2026 08:29 HNX Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 09/06/2026" [ref=e535]:
+                - cell "8" [ref=e536]
+                - cell "09/06/2026 08:29" [ref=e537]
+                - cell "HNX" [ref=e538]:
+                  - link "HNX" [ref=e539] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 09/06/2026" [ref=e540]:
+                  - link "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 09/06/2026" [ref=e541] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=e542]:
+                  - link [ref=e543] [cursor=pointer]:
+                    - /url: javascript:;
+              - row "9 08/06/2026 08:43 HNX Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 08/06/2026" [ref=e544]:
+                - cell "9" [ref=e545]
+                - cell "08/06/2026 08:43" [ref=e546]
+                - cell "HNX" [ref=e547]:
+                  - link "HNX" [ref=e548] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 08/06/2026" [ref=e549]:
+                  - link "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 08/06/2026" [ref=e550] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=e551]:
+                  - link [ref=e552] [cursor=pointer]:
+                    - /url: javascript:;
+              - row "10 05/06/2026 09:03 HNX Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 05/06/2026" [ref=e553]:
+                - cell "10" [ref=e554]
+                - cell "05/06/2026 09:03" [ref=e555]
+                - cell "HNX" [ref=e556]:
+                  - link "HNX" [ref=e557] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 05/06/2026" [ref=e558]:
+                  - link "Số liệu Quản lý Sở hữu của Nhà đầu tư nước ngoài tại ngày 05/06/2026" [ref=e559] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=e560]:
+                  - link [ref=e561] [cursor=pointer]:
+                    - /url: javascript:;
+          - generic [ref=e562]:
+            - list:
+              - generic [ref=e563]: Tổng số 8551 bản ghi
+              - generic [ref=e564]:
+                - listitem [ref=e565]: "1"
+                - listitem [ref=e566]: "2"
+                - listitem [ref=e567]: "3"
+                - listitem [ref=e568]: "4"
+                - listitem [ref=e569]: "5"
+                - listitem [ref=e570]: ">"
+                - listitem [ref=e571]: ">>"
+  - generic [ref=e573]:
+    - generic [ref=e574]:
+      - list:
+        - listitem [ref=e575]:
+          - list [ref=e576]:
+            - listitem [ref=e577]: DỊCH VỤ
+            - listitem [ref=e578]:
+              - link "Thông tin nhà đầu tư" [ref=e579] [cursor=pointer]:
+                - /url: /thong-tin-nha-dau-tu-gt.html
+            - listitem [ref=e580]:
+              - link "Trung tâm truyền thông" [ref=e581] [cursor=pointer]:
+                - /url: /trung-tam-truyen-thong-bc.html
+            - listitem [ref=e582]:
+              - link "Hướng dẫn thủ tục" [ref=e583] [cursor=pointer]:
+                - /url: /huong-dan-thu-tuc.html
+            - listitem [ref=e584]:
+              - link "Dịch vụ cung cấp thông tin" [ref=e585] [cursor=pointer]:
+                - /url: /dich-vu-cctt.html
+        - listitem [ref=e586]:
+          - list [ref=e587]:
+            - listitem [ref=e588]: TIN TỨC
+            - listitem [ref=e589]:
+              - link "Hoạt động sự kiện" [ref=e590] [cursor=pointer]:
+                - /url: /tin-tuc-su-kien-hnx.html
+            - listitem [ref=e591]:
+              - link "Hoạt động xã hội" [ref=e592] [cursor=pointer]:
+                - /url: /tin-tuc-su-kien-hdxh.html
+            - listitem [ref=e593]:
+              - link "Lịch sự kiện HNX" [ref=e594] [cursor=pointer]:
+                - /url: /tin-tuc-su-kien-sk.html
+            - listitem [ref=e595]:
+              - link "Lịch nghỉ giao dịch" [ref=e596] [cursor=pointer]:
+                - /url: /tin-tuc-su-kien-gd.html
+        - listitem [ref=e597]:
+          - list [ref=e598]:
+            - listitem [ref=e599]: KẾT NỐI
+            - listitem [ref=e600]:
+              - link "Facebook" [ref=e601] [cursor=pointer]:
+                - /url: https://www.facebook.com/HanoiStockExchange2005/?fref=ts
+        - listitem [ref=e602]:
+          - list [ref=e603]:
+            - listitem [ref=e604]: LIÊN KẾT
+            - listitem [ref=e605]:
+              - generic [ref=e610]:
+                - img [ref=e613]
+                - img [ref=e615]
+                - img [ref=e617]
+                - img [ref=e619]
+                - img [ref=e621]
+                - img [ref=e623]
+                - img [ref=e625]
+                - img [ref=e627]
+                - img [ref=e629]
+                - img [ref=e631]
+                - img [ref=e633]
+                - img [ref=e635]
+                - img [ref=e637]
+                - img [ref=e639]
+                - img [ref=e641]
+                - img [ref=e643]
+                - img [ref=e645]
+                - img [ref=e647]
+    - generic [ref=e648]:
+      - generic [ref=e649]:
+        - generic [ref=e650]: Liên hệ với Sở Giao dịch Chứng khoán Hà Nội khi phát hành thông tin từ Website này.
+        - generic [ref=e651]: Giấy phép số 151/GP-BC ngày 29/08/2005 của Cục Báo chí, Bộ Văn hóa TT về cung cấp thông tin lên mạng Internet.
+      - generic [ref=e653]:
+        - link "Thuật ngữ" [ref=e654] [cursor=pointer]:
+          - /url: /thuat-ngu.html
+        - text: "|"
+        - link "FAQs" [ref=e655] [cursor=pointer]:
+          - /url: /hoi-dap.html
+        - text: "|"
+        - link "Cấu trúc website" [ref=e656] [cursor=pointer]:
+          - /url: /cau-truc-website.html
+        - text: "|"
+        - link "Liên hệ" [ref=e657] [cursor=pointer]:
+          - /url: /lien-he.html
+        - text: "|"
+        - link "Bản đồ" [ref=e658] [cursor=pointer]:
+          - /url: /ban-do.html
+        - text: "|"
+        - link "Khuyến cáo" [ref=e659] [cursor=pointer]:
+          - /url: /khuyen-cao.html
+        - text: "|"
+        - link "RSS" [ref=e660] [cursor=pointer]:
+          - /url: /rss.html
+    - generic [ref=e662]: © 2016 Bản quyển thuộc "Sở Giao dịch Chứng khoán Hà Nội".

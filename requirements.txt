@@ -1,0 +1,8 @@
+# Survey-week spike dependencies (throwaway, not production)
+httpx>=0.27          # HTTP client for hidden/public JSON APIs + static HTML
+feedparser>=6.0      # RSS/Atom feeds
+selectolax>=0.3      # fast HTML parsing (Modest/Lexbor)
+beautifulsoup4>=4.12 # fallback HTML parsing
+lxml>=5.0            # parser backend for bs4
+trafilatura>=1.8     # main-content / article-body extraction from HTML
+playwright>=1.44     # JS-rendered pages (only if RSS/API/static all fail)

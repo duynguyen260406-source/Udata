@@ -1,0 +1,727 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: /Home/Language?culture=en-GB&returnUrl=home.html
+            - img [ref=e11]
+          - textbox "Nhập từ khóa tìm kiếm" [ref=e13]
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "HNX" [ref=e17] [cursor=pointer]:
+              - /url: /hnx.html
+          - listitem [ref=e18]:
+            - link "ĐẤU GIÁ" [ref=e19] [cursor=pointer]:
+              - /url: /dau-gia.html
+          - listitem [ref=e20]:
+            - link "CỔ PHIẾU" [ref=e21] [cursor=pointer]:
+              - /url: /co-phieu.html
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "CỔ PHIẾU NIÊM YẾT" [ref=e24] [cursor=pointer]:
+                  - /url: javascript:;
+              - listitem [ref=e25]:
+                - link "CỔ PHIẾU UPCoM" [ref=e26] [cursor=pointer]:
+                  - /url: javascript:;
+              - listitem [ref=e27]:
+                - link "CHỈ SỐ" [ref=e28] [cursor=pointer]:
+                  - /url: javascript:;
+          - listitem [ref=e29]:
+            - link "TRÁI PHIẾU" [ref=e30] [cursor=pointer]:
+              - /url: /trai-phieu.html
+          - listitem [ref=e31]:
+            - link "CHỨNG KHOÁN PHÁI SINH" [ref=e32] [cursor=pointer]:
+              - /url: /phai-sinh.html
+          - listitem [ref=e33]:
+            - link "VĂN BẢN PHÁP LÝ" [ref=e34] [cursor=pointer]:
+              - /url: /van-ban-phap-ly.html
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]: HNX30
+            - generic [ref=e38]: "516.24"
+            - generic [ref=e40]: "-0.47"
+            - generic [ref=e41]: (-0.09%)
+          - generic [ref=e42]:
+            - generic [ref=e43]: HNX Index
+            - generic [ref=e44]: "302.49"
+            - generic [ref=e46]: "2.4"
+            - generic [ref=e47]: (0.8%)
+          - generic [ref=e48]:
+            - generic [ref=e49]: UPCoM Index
+            - generic [ref=e50]: "126.35"
+            - generic [ref=e52]: "-0.06"
+            - generic [ref=e53]: (-0.05%)
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]: BVS
+        - generic [ref=e59]: "25.100"
+        - generic [ref=e61]: "-100"
+        - generic [ref=e62]: (-0,4%)
+      - generic [ref=e63]:
+        - generic [ref=e64]: CAP
+        - generic [ref=e65]: "46.700"
+        - generic [ref=e67]: "0"
+        - generic [ref=e68]: (0%)
+      - generic [ref=e69]:
+        - generic [ref=e70]: CEO
+        - generic [ref=e71]: "15.100"
+        - generic [ref=e73]: "0"
+        - generic [ref=e74]: (0%)
+      - generic [ref=e75]:
+        - generic [ref=e76]: DP3
+        - generic [ref=e77]: "61.900"
+        - generic [ref=e79]: "-500"
+        - generic [ref=e80]: (-0,8%)
+      - generic [ref=e81]:
+        - generic [ref=e82]: DTD
+        - generic [ref=e83]: "14.700"
+        - generic [ref=e85]: "0"
+        - generic [ref=e86]: (0%)
+      - generic [ref=e87]:
+        - generic [ref=e88]: DVM
+        - generic [ref=e89]: "6.900"
+        - generic [ref=e91]: "0"
+        - generic [ref=e92]: (0%)
+      - generic [ref=e93]:
+        - generic [ref=e94]: DXP
+        - generic [ref=e95]: "12.700"
+        - generic [ref=e97]: "0"
+        - generic [ref=e98]: (0%)
+      - generic [ref=e99]:
+        - generic [ref=e100]: HUT
+        - generic [ref=e101]: "15.500"
+        - generic [ref=e103]: "-100"
+        - generic [ref=e104]: (-0,64%)
+      - generic [ref=e105]:
+        - generic [ref=e106]: IDC
+        - generic [ref=e107]: "43.500"
+        - generic [ref=e109]: "0"
+        - generic [ref=e110]: (0%)
+      - generic [ref=e111]:
+        - generic [ref=e112]: IDV
+        - generic [ref=e113]: "22.000"
+        - generic [ref=e115]: "-200"
+        - generic [ref=e116]: (-0,9%)
+      - generic [ref=e117]:
+        - generic [ref=e118]: L14
+        - generic [ref=e119]: "21.500"
+        - generic [ref=e121]: "0"
+        - generic [ref=e122]: (0%)
+      - generic [ref=e123]:
+        - generic [ref=e124]: L18
+        - generic [ref=e125]: "21.700"
+        - generic [ref=e127]: "0"
+        - generic [ref=e128]: (0%)
+      - generic [ref=e129]:
+        - generic [ref=e130]: LAS
+        - generic [ref=e131]: "14.400"
+        - generic [ref=e133]: "-100"
+        - generic [ref=e134]: (-0,69%)
+      - generic [ref=e135]:
+        - generic [ref=e136]: LHC
+        - generic [ref=e137]: "90.700"
+        - generic [ref=e139]: "-600"
+        - generic [ref=e140]: (-0,66%)
+      - generic [ref=e141]:
+        - generic [ref=e142]: MBS
+        - generic [ref=e143]: "19.200"
+        - generic [ref=e145]: "200"
+        - generic [ref=e146]: (1,05%)
+      - generic [ref=e147]:
+        - generic [ref=e148]: NDN
+        - generic [ref=e149]: "10.600"
+        - generic [ref=e151]: "0"
+        - generic [ref=e152]: (0%)
+      - generic [ref=e153]:
+        - generic [ref=e154]: NTP
+        - generic [ref=e155]: "49.900"
+        - generic [ref=e157]: "-100"
+        - generic [ref=e158]: (-0,2%)
+      - generic [ref=e159]:
+        - generic [ref=e160]: PLC
+        - generic [ref=e161]: "21.000"
+        - generic [ref=e163]: "-100"
+        - generic [ref=e164]: (-0,47%)
+      - generic [ref=e165]:
+        - generic [ref=e166]: PSD
+        - generic [ref=e167]: "16.000"
+        - generic [ref=e169]: "0"
+        - generic [ref=e170]: (0%)
+      - generic [ref=e171]:
+        - generic [ref=e172]: PVB
+        - generic [ref=e173]: "25.100"
+        - generic [ref=e175]: "-200"
+        - generic [ref=e176]: (-0,79%)
+      - generic [ref=e177]:
+        - generic [ref=e178]: PVC
+        - generic [ref=e179]: "14.300"
+        - generic [ref=e181]: "-100"
+        - generic [ref=e182]: (-0,69%)
+      - generic [ref=e183]:
+        - generic [ref=e184]: PVS
+        - generic [ref=e185]: "38.500"
+        - generic [ref=e187]: "-100"
+        - generic [ref=e188]: (-0,26%)
+      - generic [ref=e189]:
+        - generic [ref=e190]: SHS
+        - generic [ref=e191]: "18.200"
+        - generic [ref=e193]: "-100"
+        - generic [ref=e194]: (-0,55%)
+      - generic [ref=e195]:
+        - generic [ref=e196]: SLS
+        - generic [ref=e197]: "150.000"
+        - generic [ref=e199]: "2.000"
+        - generic [ref=e200]: (1,35%)
+      - generic [ref=e201]:
+        - generic [ref=e202]: TMB
+        - generic [ref=e203]: "52.100"
+        - generic [ref=e205]: "-300"
+        - generic [ref=e206]: (-0,57%)
+      - generic [ref=e207]:
+        - generic [ref=e208]: TNG
+        - generic [ref=e209]: "18.900"
+        - generic [ref=e211]: "-100"
+        - generic [ref=e212]: (-0,53%)
+      - generic [ref=e213]:
+        - generic [ref=e214]: TVD
+        - generic [ref=e215]: "9.400"
+        - generic [ref=e217]: "-100"
+        - generic [ref=e218]: (-1,05%)
+      - generic [ref=e219]:
+        - generic [ref=e220]: VC3
+        - generic [ref=e221]: "26.600"
+        - generic [ref=e223]: "300"
+        - generic [ref=e224]: (1,14%)
+      - generic [ref=e225]:
+        - generic [ref=e226]: VCS
+        - generic [ref=e227]: "38.800"
+        - generic [ref=e229]: "1.200"
+        - generic [ref=e230]: (3,19%)
+      - generic [ref=e231]:
+        - generic [ref=e232]: VFS
+        - generic [ref=e233]: "10.300"
+        - generic [ref=e235]: "0"
+        - generic [ref=e236]: (0%)
+      - generic [ref=e237]:
+        - generic [ref=e238]: BVS
+        - generic [ref=e239]: "25.100"
+        - generic [ref=e241]: "-100"
+        - generic [ref=e242]: (-0,4%)
+      - generic [ref=e243]:
+        - generic [ref=e244]: CAP
+        - generic [ref=e245]: "46.700"
+        - generic [ref=e247]: "0"
+        - generic [ref=e248]: (0%)
+      - generic [ref=e249]:
+        - generic [ref=e250]: CEO
+        - generic [ref=e251]: "15.100"
+        - generic [ref=e253]: "0"
+        - generic [ref=e254]: (0%)
+      - generic [ref=e255]:
+        - generic [ref=e256]: DP3
+        - generic [ref=e257]: "61.900"
+        - generic [ref=e259]: "-500"
+        - generic [ref=e260]: (-0,8%)
+      - generic [ref=e261]:
+        - generic [ref=e262]: DTD
+        - generic [ref=e263]: "14.700"
+        - generic [ref=e265]: "0"
+        - generic [ref=e266]: (0%)
+      - generic [ref=e267]:
+        - generic [ref=e268]: DVM
+        - generic [ref=e269]: "6.900"
+        - generic [ref=e271]: "0"
+        - generic [ref=e272]: (0%)
+      - generic [ref=e273]:
+        - generic [ref=e274]: DXP
+        - generic [ref=e275]: "12.700"
+        - generic [ref=e277]: "0"
+        - generic [ref=e278]: (0%)
+      - generic [ref=e279]:
+        - generic [ref=e280]: HUT
+        - generic [ref=e281]: "15.500"
+        - generic [ref=e283]: "-100"
+        - generic [ref=e284]: (-0,64%)
+      - generic [ref=e285]:
+        - generic [ref=e286]: IDC
+        - generic [ref=e287]: "43.500"
+        - generic [ref=e289]: "0"
+        - generic [ref=e290]: (0%)
+      - generic [ref=e291]:
+        - generic [ref=e292]: IDV
+        - generic [ref=e293]: "22.000"
+        - generic [ref=e295]: "-200"
+        - generic [ref=e296]: (-0,9%)
+      - generic [ref=e297]:
+        - generic [ref=e298]: L14
+        - generic [ref=e299]: "21.500"
+        - generic [ref=e301]: "0"
+        - generic [ref=e302]: (0%)
+      - generic [ref=e303]:
+        - generic [ref=e304]: L18
+        - generic [ref=e305]: "21.700"
+        - generic [ref=e307]: "0"
+        - generic [ref=e308]: (0%)
+      - generic [ref=e309]:
+        - generic [ref=e310]: LAS
+        - generic [ref=e311]: "14.400"
+        - generic [ref=e313]: "-100"
+        - generic [ref=e314]: (-0,69%)
+      - generic [ref=e315]:
+        - generic [ref=e316]: LHC
+        - generic [ref=e317]: "90.700"
+        - generic [ref=e319]: "-600"
+        - generic [ref=e320]: (-0,66%)
+      - generic [ref=e321]:
+        - generic [ref=e322]: MBS
+        - generic [ref=e323]: "19.200"
+        - generic [ref=e325]: "200"
+        - generic [ref=e326]: (1,05%)
+      - generic [ref=e327]:
+        - generic [ref=e328]: NDN
+        - generic [ref=e329]: "10.600"
+        - generic [ref=e331]: "0"
+        - generic [ref=e332]: (0%)
+      - generic [ref=e333]:
+        - generic [ref=e334]: NTP
+        - generic [ref=e335]: "49.900"
+        - generic [ref=e337]: "-100"
+        - generic [ref=e338]: (-0,2%)
+      - generic [ref=e339]:
+        - generic [ref=e340]: PLC
+        - generic [ref=e341]: "21.000"
+        - generic [ref=e343]: "-100"
+        - generic [ref=e344]: (-0,47%)
+      - generic [ref=e345]:
+        - generic [ref=e346]: PSD
+        - generic [ref=e347]: "16.000"
+        - generic [ref=e349]: "0"
+        - generic [ref=e350]: (0%)
+      - generic [ref=e351]:
+        - generic [ref=e352]: PVB
+        - generic [ref=e353]: "25.100"
+        - generic [ref=e355]: "-200"
+        - generic [ref=e356]: (-0,79%)
+      - generic [ref=e357]:
+        - generic [ref=e358]: PVC
+        - generic [ref=e359]: "14.300"
+        - generic [ref=e361]: "-100"
+        - generic [ref=e362]: (-0,69%)
+      - generic [ref=e363]:
+        - generic [ref=e364]: PVS
+        - generic [ref=e365]: "38.500"
+        - generic [ref=e367]: "-100"
+        - generic [ref=e368]: (-0,26%)
+      - generic [ref=e369]:
+        - generic [ref=e370]: SHS
+        - generic [ref=e371]: "18.200"
+        - generic [ref=e373]: "-100"
+        - generic [ref=e374]: (-0,55%)
+      - generic [ref=e375]:
+        - generic [ref=e376]: SLS
+        - generic [ref=e377]: "150.000"
+        - generic [ref=e379]: "2.000"
+        - generic [ref=e380]: (1,35%)
+      - generic [ref=e381]:
+        - generic [ref=e382]: TMB
+        - generic [ref=e383]: "52.100"
+        - generic [ref=e385]: "-300"
+        - generic [ref=e386]: (-0,57%)
+      - generic [ref=e387]:
+        - generic [ref=e388]: TNG
+        - generic [ref=e389]: "18.900"
+        - generic [ref=e391]: "-100"
+        - generic [ref=e392]: (-0,53%)
+      - generic [ref=e393]:
+        - generic [ref=e394]: TVD
+        - generic [ref=e395]: "9.400"
+        - generic [ref=e397]: "-100"
+        - generic [ref=e398]: (-1,05%)
+      - generic [ref=e399]:
+        - generic [ref=e400]: VC3
+        - generic [ref=e401]: "26.600"
+        - generic [ref=e403]: "300"
+        - generic [ref=e404]: (1,14%)
+      - generic [ref=e405]:
+        - generic [ref=e406]: VCS
+        - generic [ref=e407]: "38.800"
+        - generic [ref=e409]: "1.200"
+        - generic [ref=e410]: (3,19%)
+      - generic [ref=e411]:
+        - generic [ref=e412]: VFS
+        - generic [ref=e413]: "10.300"
+        - generic [ref=e415]: "0"
+        - generic [ref=e416]: (0%)
+  - generic [ref=e418]:
+    - generic [ref=e426]:
+      - img [ref=e428]
+      - img [ref=e430]
+      - img [ref=e432]
+      - generic [ref=e433]:
+        - img [ref=e434]
+        - link "Vinh danh 10 doanh nghiệp niêm yết thực hiện QTCT tốt nhất và 10 doanh nghiệp UPCoM thực hiện CBTT và minh bạch tốt nhất năm 2022-2023" [ref=e435] [cursor=pointer]:
+          - /url: https://hnx.vn/vi-vn/chi-tiet-su-kien-60017709-0-hnx.html?_page=2
+      - generic [ref=e436]:
+        - img [ref=e437]
+        - link "Vinh danh 10 doanh nghiệp niêm yết thực hiện QTCT tốt nhất và 10 doanh nghiệp UPCoM thực hiện CBTT và minh bạch tốt nhất năm 2022-2023" [ref=e438] [cursor=pointer]:
+          - /url: https://hnx.vn/vi-vn/chi-tiet-su-kien-60017709-0-hnx.html?_page=2
+    - generic [ref=e445]:
+      - generic [ref=e446]:
+        - list [ref=e448]:
+          - listitem [ref=e449] [cursor=pointer]: Niêm yết
+          - listitem [ref=e450] [cursor=pointer]: UPCoM
+          - listitem [ref=e451] [cursor=pointer]:
+            - link "Bảng giá trực tuyến" [ref=e452]:
+              - /url: https://banggia.hnx.vn/
+        - generic [ref=e453]:
+          - generic [ref=e454]:
+            - generic [ref=e455]: CHỈ SỐ
+            - generic [ref=e456]: GIÁ TRỊ
+            - generic [ref=e457]: THAY ĐỔI
+            - text: THAY ĐỔI (%)
+          - table [ref=e460]:
+            - rowgroup [ref=e461]:
+              - row "VN30 1.944,36 -2,92 -0,15" [ref=e462]:
+                - cell "VN30" [ref=e463]
+                - cell "1.944,36" [ref=e464]
+                - cell "-2,92" [ref=e465]:
+                  - text: "-2,92"
+                  - img [ref=e466]
+                - cell "-0,15" [ref=e467]:
+                  - text: "-0,15"
+                  - img [ref=e468]
+              - row "VN100 1.865,93 -5,46 -0,29" [ref=e469]:
+                - cell "VN100" [ref=e470]
+                - cell "1.865,93" [ref=e471]
+                - cell "-5,46" [ref=e472]:
+                  - text: "-5,46"
+                  - img [ref=e473]
+                - cell "-0,29" [ref=e474]:
+                  - text: "-0,29"
+                  - img [ref=e475]
+              - row "VNX50 3.265,91 -9,24 -0,28" [ref=e476]:
+                - cell "VNX50" [ref=e477]
+                - cell "3.265,91" [ref=e478]
+                - cell "-9,24" [ref=e479]:
+                  - text: "-9,24"
+                  - img [ref=e480]
+                - cell "-0,28" [ref=e481]:
+                  - text: "-0,28"
+                  - img [ref=e482]
+              - row "HNX Index 302,49 2,40 0,80" [ref=e483]:
+                - cell "HNX Index" [ref=e484]
+                - cell "302,49" [ref=e485]
+                - cell "2,40" [ref=e486]:
+                  - text: 2,40
+                  - img [ref=e487]
+                - cell "0,80" [ref=e488]:
+                  - text: 0,80
+                  - img [ref=e489]
+              - row "Large 310,43 2,96 0,96" [ref=e490]:
+                - cell "Large" [ref=e491]
+                - cell "310,43" [ref=e492]
+                - cell "2,96" [ref=e493]:
+                  - text: 2,96
+                  - img [ref=e494]
+                - cell "0,96" [ref=e495]:
+                  - text: 0,96
+                  - img [ref=e496]
+              - row "Mid/Small 899,20 -4,31 -0,48" [ref=e497]:
+                - cell "Mid/Small" [ref=e498]
+                - cell "899,20" [ref=e499]
+                - cell "-4,31" [ref=e500]:
+                  - text: "-4,31"
+                  - img [ref=e501]
+                - cell "-0,48" [ref=e502]:
+                  - text: "-0,48"
+                  - img [ref=e503]
+              - row "HNX30 516,24 -0,47 -0,09" [ref=e504]:
+                - cell "HNX30" [ref=e505]
+                - cell "516,24" [ref=e506]
+                - cell "-0,47" [ref=e507]:
+                  - text: "-0,47"
+                  - img [ref=e508]
+                - cell "-0,09" [ref=e509]:
+                  - text: "-0,09"
+                  - img [ref=e510]
+              - row "Công nghiệp 240,86 0,10 0,04" [ref=e511]:
+                - cell "Công nghiệp" [ref=e512]
+                - cell "240,86" [ref=e513]
+                - cell "0,10" [ref=e514]:
+                  - text: 0,10
+                  - img [ref=e515]
+                - cell "0,04" [ref=e516]:
+                  - text: 0,04
+                  - img [ref=e517]
+              - row "Xây dựng 313,34 -0,70 -0,22" [ref=e518]:
+                - cell "Xây dựng" [ref=e519]
+                - cell "313,34" [ref=e520]
+                - cell "-0,70" [ref=e521]:
+                  - text: "-0,70"
+                  - img [ref=e522]
+                - cell "-0,22" [ref=e523]:
+                  - text: "-0,22"
+                  - img [ref=e524]
+              - row "Tài chính 599,96 2,40 0,40" [ref=e525]:
+                - cell "Tài chính" [ref=e526]
+                - cell "599,96" [ref=e527]
+                - cell "2,40" [ref=e528]:
+                  - text: 2,40
+                  - img [ref=e529]
+                - cell "0,40" [ref=e530]:
+                  - text: 0,40
+                  - img [ref=e531]
+              - row "HNX30TRI 812,01 -0,74 -0,09" [ref=e532]:
+                - cell "HNX30TRI" [ref=e533]
+                - cell "812,01" [ref=e534]
+                - cell "-0,74" [ref=e535]:
+                  - text: "-0,74"
+                  - img [ref=e536]
+                - cell "-0,09" [ref=e537]:
+                  - text: "-0,09"
+                  - img [ref=e538]
+        - generic [ref=e539]:
+          - text: Dữ liệu được cung cấp với độ trễ 15 phút
+          - link "Xem tiếp >>" [ref=e540] [cursor=pointer]:
+            - /url: /co-phieu-etfs/chi-so-tong-hop-du-lieu-realtime-composite.html
+      - generic [ref=e541]:
+        - list [ref=e543]:
+          - listitem [ref=e544] [cursor=pointer]: TOP NIÊM YẾT
+          - listitem [ref=e545] [cursor=pointer]: TOP UPCoM
+        - generic [ref=e546]:
+          - generic:
+            - generic [ref=e547]: KLGD nhiều nhất
+            - generic [ref=e548]: Tăng giá nhiều nhất
+            - generic [ref=e549]: Giảm giá nhiều nhất
+          - table [ref=e551]:
+            - rowgroup [ref=e552]:
+              - row "Mã CK KLGD Giá khớp lệnh (Đồng)" [ref=e553]:
+                - columnheader "Mã CK" [ref=e554]
+                - columnheader "KLGD" [ref=e555]
+                - columnheader "Giá khớp lệnh (Đồng)" [ref=e556]
+            - rowgroup [ref=e557]:
+              - row "SHS 17.980.460 18.200" [ref=e558]:
+                - cell "SHS" [ref=e559]:
+                  - link "SHS" [ref=e560] [cursor=pointer]:
+                    - /url: /cophieu-etfs/chi-tiet-chung-khoan-ny-shs.html
+                - cell "17.980.460" [ref=e561]
+                - cell "18.200" [ref=e562]
+              - row "DDG 4.668.130 700" [ref=e563]:
+                - cell "DDG" [ref=e564]:
+                  - link "DDG" [ref=e565] [cursor=pointer]:
+                    - /url: /cophieu-etfs/chi-tiet-chung-khoan-ny-ddg.html
+                - cell "4.668.130" [ref=e566]
+                - cell "700" [ref=e567]
+              - row "CEO 2.843.916 15.100" [ref=e568]:
+                - cell "CEO" [ref=e569]:
+                  - link "CEO" [ref=e570] [cursor=pointer]:
+                    - /url: /cophieu-etfs/chi-tiet-chung-khoan-ny-ceo.html
+                - cell "2.843.916" [ref=e571]
+                - cell "15.100" [ref=e572]
+    - generic [ref=e573]:
+      - generic [ref=e574]:
+        - list [ref=e576]:
+          - listitem [ref=e577] [cursor=pointer]: THÔNG TIN CÔNG BỐ
+        - generic [ref=e578]:
+          - list:
+            - listitem [ref=e579]:
+              - generic [ref=e580]:
+                - paragraph [ref=e581]:
+                  - link "VHD - UpCoM" [ref=e582] [cursor=pointer]:
+                    - /url: /cophieu-etfs/chi-tiet-chung-khoan-uc-vhd.html
+                - paragraph [ref=e583]: 12/06/2026
+              - link "Nghị quyết Đại hội đồng cổ đông thường niên năm 2026" [ref=e585] [cursor=pointer]:
+                - /url: javascript:;
+            - listitem [ref=e586]:
+              - generic [ref=e587]:
+                - paragraph [ref=e588]:
+                  - link "TNB - UpCoM" [ref=e589] [cursor=pointer]:
+                    - /url: /cophieu-etfs/chi-tiet-chung-khoan-uc-tnb.html
+                - paragraph [ref=e590]: 12/06/2026
+              - link "Ký hợp đồng kiểm toán Báo cáo tài chính năm 2026" [ref=e592] [cursor=pointer]:
+                - /url: javascript:;
+            - listitem [ref=e593]:
+              - generic [ref=e594]:
+                - paragraph [ref=e595]:
+                  - link "TMG - UpCoM" [ref=e596] [cursor=pointer]:
+                    - /url: /cophieu-etfs/chi-tiet-chung-khoan-uc-tmg.html
+                - paragraph [ref=e597]: 12/06/2026
+              - link "Thông báo cơ cấu sở hữu cổ đông không đáp ứng điều kiện công ty đại chúng" [ref=e599] [cursor=pointer]:
+                - /url: javascript:;
+            - listitem [ref=e600]:
+              - generic [ref=e601]:
+                - paragraph [ref=e602]:
+                  - link "POM - UpCoM" [ref=e603] [cursor=pointer]:
+                    - /url: /cophieu-etfs/chi-tiet-chung-khoan-uc-pom.html
+                - paragraph [ref=e604]: 12/06/2026
+              - link "Báo cáo tình hình đáp ứng điều kiện công ty đại chúng" [ref=e606] [cursor=pointer]:
+                - /url: javascript:;
+            - listitem [ref=e607]:
+              - generic [ref=e608]:
+                - paragraph [ref=e609]:
+                  - link "POM - UpCoM" [ref=e610] [cursor=pointer]:
+                    - /url: /cophieu-etfs/chi-tiet-chung-khoan-uc-pom.html
+                - paragraph [ref=e611]: 12/06/2026
+              - link "Báo cáo tài chính năm 2023 (Công ty mẹ)" [ref=e613] [cursor=pointer]:
+                - /url: javascript:;
+          - link "Xem tiếp >>" [ref=e615] [cursor=pointer]:
+            - /url: /thong-tin-cong-bo-ny-tcph.html
+      - generic [ref=e616]:
+        - list [ref=e618]:
+          - listitem [ref=e619] [cursor=pointer]: DANH SÁCH CHỨNG KHOÁN MỚI
+          - listitem [ref=e620] [cursor=pointer]: CHỨNG KHOÁN ĐƯỢC CHẤP THUẬN NIÊM YẾT
+        - table [ref=e622]:
+          - rowgroup [ref=e623]:
+            - row "THỊ TRƯỜNG MÃ CK KLNY/ĐKGD NGÀY GD ĐẦU TIÊN" [ref=e624]:
+              - columnheader "THỊ TRƯỜNG" [ref=e625]
+              - columnheader "MÃ CK" [ref=e626]
+              - columnheader "KLNY/ĐKGD" [ref=e627]
+              - columnheader "NGÀY GD ĐẦU TIÊN" [ref=e628]
+          - rowgroup [ref=e629]:
+            - row "TPDNNY NAB125004 10.000.000 11/06/2026" [ref=e630]:
+              - cell "TPDNNY" [ref=e631]
+              - cell "NAB125004" [ref=e632]:
+                - link "NAB125004" [ref=e633] [cursor=pointer]:
+                  - /url: /cophieu-etfs/chi-tiet-chung-khoan-ny-nab125004.html
+              - cell "10.000.000" [ref=e634]
+              - cell "11/06/2026" [ref=e635]
+            - row "Upcom NHD 5.200.000 05/06/2026" [ref=e636]:
+              - cell "Upcom" [ref=e637]
+              - cell "NHD" [ref=e638]:
+                - link "NHD" [ref=e639] [cursor=pointer]:
+                  - /url: /cophieu-etfs/chi-tiet-chung-khoan-uc-nhd.html
+              - cell "5.200.000" [ref=e640]
+              - cell "05/06/2026" [ref=e641]
+            - row "Upcom SDA 26.206.158 02/06/2026" [ref=e642]:
+              - cell "Upcom" [ref=e643]
+              - cell "SDA" [ref=e644]:
+                - link "SDA" [ref=e645] [cursor=pointer]:
+                  - /url: /cophieu-etfs/chi-tiet-chung-khoan-uc-sda.html
+              - cell "26.206.158" [ref=e646]
+              - cell "02/06/2026" [ref=e647]
+            - row "TPDNNY LPB126018 147.035 29/05/2026" [ref=e648]:
+              - cell "TPDNNY" [ref=e649]
+              - cell "LPB126018" [ref=e650]:
+                - link "LPB126018" [ref=e651] [cursor=pointer]:
+                  - /url: /cophieu-etfs/chi-tiet-chung-khoan-ny-lpb126018.html
+              - cell "147.035" [ref=e652]
+              - cell "29/05/2026" [ref=e653]
+            - row "TPDNNY LPB126019 10.017.850 29/05/2026" [ref=e654]:
+              - cell "TPDNNY" [ref=e655]
+              - cell "LPB126019" [ref=e656]:
+                - link "LPB126019" [ref=e657] [cursor=pointer]:
+                  - /url: /cophieu-etfs/chi-tiet-chung-khoan-ny-lpb126019.html
+              - cell "10.017.850" [ref=e658]
+              - cell "29/05/2026" [ref=e659]
+    - generic [ref=e660]:
+      - generic [ref=e661]:
+        - link [ref=e663] [cursor=pointer]:
+          - /url: /trung-tam-truyen-thong-dn.html
+          - img [ref=e664]
+        - link "VIDEO GIỚI THIỆU DOANH NGHIỆP" [ref=e665] [cursor=pointer]:
+          - /url: /trung-tam-truyen-thong-dn.html
+      - generic [ref=e666]:
+        - generic:
+          - generic [ref=e667]:
+            - link [ref=e669] [cursor=pointer]:
+              - /url: /trung-tam-truyen-thong-bc.html
+              - img [ref=e670]
+            - link "Trung tâm truyền thông" [ref=e671] [cursor=pointer]:
+              - /url: /trung-tam-truyen-thong-bc.html
+          - generic [ref=e672]:
+            - link [ref=e674] [cursor=pointer]:
+              - /url: /thong-tin-nha-dau-tu-gt.html
+              - img [ref=e675]
+            - link "Thông tin nhà đầu tư" [ref=e676] [cursor=pointer]:
+              - /url: /thong-tin-nha-dau-tu-gt.html
+  - generic [ref=e678]:
+    - generic [ref=e679]:
+      - list:
+        - listitem [ref=e680]:
+          - list [ref=e681]:
+            - listitem [ref=e682]: DỊCH VỤ
+            - listitem [ref=e683]:
+              - link "Thông tin nhà đầu tư" [ref=e684] [cursor=pointer]:
+                - /url: /thong-tin-nha-dau-tu-gt.html
+            - listitem [ref=e685]:
+              - link "Trung tâm truyền thông" [ref=e686] [cursor=pointer]:
+                - /url: /trung-tam-truyen-thong-bc.html
+            - listitem [ref=e687]:
+              - link "Hướng dẫn thủ tục" [ref=e688] [cursor=pointer]:
+                - /url: /huong-dan-thu-tuc.html
+            - listitem [ref=e689]:
+              - link "Dịch vụ cung cấp thông tin" [ref=e690] [cursor=pointer]:
+                - /url: /dich-vu-cctt.html
+        - listitem [ref=e691]:
+          - list [ref=e692]:
+            - listitem [ref=e693]: TIN TỨC
+            - listitem [ref=e694]:
+              - link "Hoạt động sự kiện" [ref=e695] [cursor=pointer]:
+                - /url: /tin-tuc-su-kien-hnx.html
+            - listitem [ref=e696]:
+              - link "Hoạt động xã hội" [ref=e697] [cursor=pointer]:
+                - /url: /tin-tuc-su-kien-hdxh.html
+            - listitem [ref=e698]:
+              - link "Lịch sự kiện HNX" [ref=e699] [cursor=pointer]:
+                - /url: /tin-tuc-su-kien-sk.html
+            - listitem [ref=e700]:
+              - link "Lịch nghỉ giao dịch" [ref=e701] [cursor=pointer]:
+                - /url: /tin-tuc-su-kien-gd.html
+        - listitem [ref=e702]:
+          - list [ref=e703]:
+            - listitem [ref=e704]: KẾT NỐI
+            - listitem [ref=e705]:
+              - link "Facebook" [ref=e706] [cursor=pointer]:
+                - /url: https://www.facebook.com/HanoiStockExchange2005/?fref=ts
+        - listitem [ref=e707]:
+          - list [ref=e708]:
+            - listitem [ref=e709]: LIÊN KẾT
+            - listitem [ref=e710]:
+              - generic [ref=e715]:
+                - img [ref=e718]
+                - img [ref=e720]
+                - img [ref=e722]
+                - img [ref=e724]
+                - img [ref=e726]
+                - img [ref=e728]
+                - img [ref=e730]
+                - img [ref=e732]
+                - img [ref=e734]
+                - img [ref=e736]
+                - img [ref=e738]
+                - img [ref=e740]
+                - img [ref=e742]
+                - img [ref=e744]
+                - img [ref=e746]
+                - img [ref=e748]
+                - img [ref=e750]
+                - img [ref=e752]
+    - generic [ref=e753]:
+      - generic [ref=e754]:
+        - generic [ref=e755]: Liên hệ với Sở Giao dịch Chứng khoán Hà Nội khi phát hành thông tin từ Website này.
+        - generic [ref=e756]: Giấy phép số 151/GP-BC ngày 29/08/2005 của Cục Báo chí, Bộ Văn hóa TT về cung cấp thông tin lên mạng Internet.
+      - generic [ref=e758]:
+        - link "Thuật ngữ" [ref=e759] [cursor=pointer]:
+          - /url: /thuat-ngu.html
+        - text: "|"
+        - link "FAQs" [ref=e760] [cursor=pointer]:
+          - /url: /hoi-dap.html
+        - text: "|"
+        - link "Cấu trúc website" [ref=e761] [cursor=pointer]:
+          - /url: /cau-truc-website.html
+        - text: "|"
+        - link "Liên hệ" [ref=e762] [cursor=pointer]:
+          - /url: /lien-he.html
+        - text: "|"
+        - link "Bản đồ" [ref=e763] [cursor=pointer]:
+          - /url: /ban-do.html
+        - text: "|"
+        - link "Khuyến cáo" [ref=e764] [cursor=pointer]:
+          - /url: /khuyen-cao.html
+        - text: "|"
+        - link "RSS" [ref=e765] [cursor=pointer]:
+          - /url: /rss.html
+    - generic [ref=e767]: © 2016 Bản quyển thuộc "Sở Giao dịch Chứng khoán Hà Nội".

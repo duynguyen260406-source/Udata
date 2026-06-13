@@ -1,0 +1,875 @@
+<!DOCTYPE html><html class=" js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><script>
+                var _languagecodeInPortal = 'VI_VN';
+
+                var _language_datepicker_in_layout = _languagecodeInPortal;
+                if (_language_datepicker_in_layout == 'VI_VN') {
+                    _language_datepicker_in_layout = "vi";
+                }
+                else {
+                    _language_datepicker_in_layout = "en";
+                }
+            </script>
+            
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Trang chủ</title>
+                <script src="/Scripts/modernizr-2.5.3.js"></script>
+
+                <script src="/Scripts/jquery-1.7.1.min.js"></script>
+                <script src="/Scripts/jquery-ui-1.8.20.min.js"></script>
+                <script src="/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+                <link rel="shortcut icon" href="/Content/img/icon_HNX.ico">
+                <link href="/Content/Site.css" rel="stylesheet">
+                <link href="/Content/font.css" rel="stylesheet">
+                <link href="/Content/StyleSheetGeneral.css" rel="stylesheet">
+                <link href="/Content/FooterStyle.css" rel="stylesheet">
+                <link href="/Content/MenuTopStyle.css" rel="stylesheet">
+                <link href="/Content/datepicker/ui-lightness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
+                <script src="/Scripts/Sliceshow/jssor.slider.min.js"></script>
+                <script src="/Scripts/jquery-validate-data.js?v=1.5.8.16"></script>
+
+            </head>
+            <body>
+                <div id="wrapper">
+
+                    <div id="wrapper-header">
+                        
+
+
+<link href="/Content/PortalCSS/Style.css?v=1.5.8.16" rel="stylesheet">
+
+<input type="hidden" id="menuActiveSearch" value="">
+<link href="/Content/datepicker/ui-lightness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
+
+
+
+
+
+<style>
+    .search_contain {
+        float: right;
+        padding-top: 2px;
+        position: relative;
+        margin-left: 10px;
+    }
+
+    #btn_search_menu {
+        position: relative;
+        z-index: 999;
+        background-color: #F5F5F5;
+        border: 1px solid #f5f5f5;
+        right: 0;
+        top: 1px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        max-width: 200px;
+        min-width: 200px;
+        width: 100%;
+        border-radius: 20px;
+        border: 1px solid
+    }
+
+        #btn_search_menu img {
+            margin-right: 12px;
+        }
+
+    .btn_search_menu {
+        border: 1px solid #ccc !important;
+        border-bottom: none !important;
+        background-color: #F9F9F8 !important;
+    }
+
+    #g_txt_search {
+        border: 1px solid;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        padding: 0 10px 0 7px;
+        margin: 0;
+        margin-top: 7px;
+        width: 250px;
+        font-size: 13px
+    }
+
+    .cls_display_none {
+        display: none !important;
+    }
+
+    .clsBtnDefault {
+        padding: 3px 15px 0;
+        text-transform: uppercase;
+        background-color: #1a8200;
+        color: #fff;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 13px;
+        height: 25px
+    }
+
+    #g_txt_search:not(:empty) .advanced_search_menu {
+        display: flex;
+    }
+
+    .advanced_search_menu {
+        display: none;
+        align-items: center;
+        padding: 2px 8px;
+    }
+
+    #box_search_menu img {
+        position: absolute;
+        right: 8px;
+        top: 8px;
+    }
+
+    #box_search_menu {
+        display: flex;
+        flex-direction: column;
+        /*box-shadow: 0 2px 7px 0 rgba(204, 204, 204, .96) !important;*/
+    }
+
+    .lang_contain .lang-en {
+        background: none !important;
+    }
+
+    .lang_contain {
+        height: 45px;
+        padding-top: 0px;
+    }
+
+    .containMenuHeader {
+        /*      height: 115px;
+        width: 1000px;*/
+    }
+
+    .menuright {
+        width: 830px;
+        float: right;
+        height: 80px;
+    }
+
+    .marquee {
+        width: 1000px;
+    }
+
+    .lang_contain .lang-vn, .lang_contain .lang-en {
+        padding: 0
+    }
+
+    .ui-autocomplete {
+        position: fixed;
+        z-index: 1004 !important;
+        background: #fff !important;
+        width: 245px !important;
+        max-height: 150px !important;
+        overflow: auto !important;
+    }
+
+
+    .clsCheck {
+        color: #daa520;
+    }
+
+    #box_search_menu {
+        top: 0px;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        width: 250px;
+    }
+
+    .active {
+        background-color: #fff !important;
+    }
+
+    #wrapper-header {
+        background-color: #fff !important;
+        position: unset !important
+    }
+
+    #cssmenu > ul > li {
+        border-top: none;
+    }
+
+    #wrapper-content {
+        padding-top: 0px;
+    }
+
+    .box_search {
+        background: #fff;
+    }
+
+    #wrapper-header {
+        height: auto !important
+    }
+
+    #cssmenu > ul > li > a {
+        /*font-family: 'Noto Sans', sans-serif !important;*/
+        font-size: 18px;
+        font-family: MyriadPro-boldCond !important;
+        white-space: nowrap;
+        color: #0a4e08;
+    }
+
+    .advanced_search_menu {
+        background: rgb(253, 250, 250);
+        padding: 5px;
+    }
+
+    .marquee-content div {
+        font-size: 15px;
+        /*font-family: "Noto Sans", sans-serif !important*/
+    }
+
+
+
+    .ul-index div {
+        /*font-family: "Noto Sans", sans-serif !important*/
+    }
+
+    #g_txt_search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        /*font-family: "Noto Sans", sans-serif !important*/
+    }
+
+    .container-index-2 {
+        /*background: #428b3d;*/
+    }
+</style>
+<script src="/Scripts/vue.global.js"></script>
+<div id="header" data-v-app=""><div class="containMenuHeader"><a href="/" class="hnx-icon"></a><div class="menuright"><div class="lang_contain"><div id="lang_icon"><a href="/Home/Language?culture=en-GB&amp;returnUrl=home.html" class="lang-en"><img src="/Content/CountryFlags/united-states.png"></a></div><div id="cssmenu"><div class="search_contain" id="div_search_contain"><div id="box_search_menu" class="box_search"><img alt="" src="/Content/TTTT/icon_search_24.png"><input type="text" id="g_txt_search" placeholder="Nhập từ khóa tìm kiếm" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" style="height: 26px;"><div class="advanced_search_menu"><input type="radio" name="name" id="g_MaCKOnSearchSuggest" checked="" value=""> &nbsp; Mã CK <input type="radio" name="name" id="g_NewsOnSearchSuggest" value="" style="margin-left: 45px;"> &nbsp; Tin tức </div></div></div></div></div><div id="cssmenu" class="ul-menu"><ul><li><a href="/hnx.html" style="display: block; text-align: center;"> HNX </a> <ul class="ul-5-li"><li><a class="a-title" href="javascript:;"><span>GIỚI THIỆU HNX</span></a> <ul><li><a class="a-content" href="/gioi-thieu-hnx-lspt.html"><span>Lịch sử phát triển</span></a></li> <li><a class="a-content" href="/gioi-thieu-hnx-scct.html"><span>Cơ cấu tổ chức</span></a></li> <li><a class="a-content" href="/gioi-thieu-hnx-sbld.html"><span>Ban lãnh đạo</span></a></li> <li><a class="a-content" href="/trung-tam-truyen-thong-ap.html"><span>Báo cáo thường niên</span></a></li></ul></li><li><a class="a-title" href="/tin-tuc-su-kien-ttcbhnx.html"><span>TIN TỨC SỰ KIỆN</span></a> <ul></ul></li><li><a class="a-title" href="/doi-tac-quoc-te.html"><span>HỢP TÁC QUỐC TẾ</span></a> <ul></ul></li><li><a class="a-title" href="/dich-vu-cctt.html"><span>DỊCH VỤ CUNG CẤP THÔNG TIN</span></a> <ul></ul></li></ul></li><li><a href="/dau-gia.html" style="display: block; text-align: center;"> ĐẤU GIÁ </a> <ul class="ul-5-li"><li><a class="a-title" href="/dau-gia/lich-dau-gia.html"><span>LỊCH ĐẤU GIÁ</span></a> <ul></ul></li><li><a class="a-title" href="/dau-gia/ket-qua-dau-gia.html"><span>KẾT QUẢ ĐẤU GIÁ</span></a> <ul></ul></li><li><a class="a-title" href="/dau-gia/dau-gia-tin-cong-bo.html"><span>TIN TỨC - SỰ KIỆN</span></a> <ul></ul></li><li><a class="a-title" href="/dau-gia/thong-ke-dau-gia.html"><span>THỐNG KÊ ĐẤU GIÁ</span></a> <ul></ul></li></ul></li><li><a href="/co-phieu.html" style="display: block; text-align: center;"> CỔ PHIẾU </a> <ul class="ul-5-li"><li><a class="a-title" href="javascript:;"><span>CỔ PHIẾU NIÊM YẾT</span></a> <ul><li><a class="a-content" href="/co-phieu-etfs/du-lieu-thi-truong-ny.html"><span>Dữ liệu giao dịch</span></a></li> <li><a class="a-content" href="/thong-tin-cong-bo-ny-hnx.html"><span>Thông tin công bố</span></a></li> <li><a class="a-content" href="/cophieu-etfs/chung-khoan-ny.html"><span>Danh sách Chứng khoán</span></a></li></ul></li><li><a class="a-title" href="javascript:;"><span>CỔ PHIẾU UPCoM</span></a> <ul><li><a class="a-content" href="/co-phieu-etfs/du-lieu-thi-truong-uc.html"><span>Dữ liệu giao dịch</span></a></li> <li><a class="a-content" href="/thong-tin-cong-bo-up-hnx.html"><span>Thông tin công bố</span></a></li> <li><a class="a-content" href="/cophieu-etfs/chung-khoan-uc.html"><span>Danh sách Chứng khoán</span></a></li></ul></li><li><a class="a-title" href="javascript:;"><span>CHỈ SỐ</span></a> <ul><li><a class="a-content" href="/co-phieu-etfs/gioi-thieu-chi-so.html"><span>Giới thiệu</span></a></li> <li><a class="a-content" href="/co-phieu-etfs/chi-so-tong-hop-thong-tin-co-ban.html"><span>Chỉ số tổng hợp</span></a></li> <li><a class="a-content" href="/co-phieu-etfs/chi-so-top-thong-tin-co-ban.html"><span>Chỉ số Top</span></a></li> <li><a class="a-content" href="/co-phieu-etfs/chi-so-quy-mo-thong-tin-co-ban.html"><span>Chỉ số Quy mô</span></a></li> <li><a class="a-content" href="/co-phieu-etfs/chi-so-nganh-thong-tin-co-ban.html"><span>Chỉ số Ngành</span></a></li> <li><a class="a-content" href="/co-phieu-etfs/chi-so-thu-nhap-thong-tin-co-ban.html"><span>Chỉ số Tổng thu nhập</span></a></li> <li><a class="a-content" href="/co-phieu-etfs/chi-so-ftse-asean.html"><span>Chỉ số FTSE Asean</span></a></li> <li><a class="a-content" href="/co-phieu-etfs/thong-ke-giao-dich.html"><span>Thống kê</span></a></li></ul></li></ul></li><li><a href="/trai-phieu.html" style="display: block; text-align: center;"> TRÁI PHIẾU </a> <ul class="ul-5-li"><li><a class="a-title" href="javascript:;"><span>PHÁT HÀNH</span></a> <ul><li><a class="a-content" href="/trai-phieu/to-chuc-phat-hanh.html"><span>Tổ chức phát hành</span></a></li> <li><a class="a-content" href="/trai-phieu/lich-dau-thau.html"><span>Đấu thầu</span></a></li> <li><a class="a-content" href="/trai-phieu/thong-bao-bao-lanh-phat-hanh.html"><span>Bảo lãnh phát hành</span></a></li></ul></li><li><a class="a-title" href="/tin-trai-phieu-hnx.html"><span>THÔNG TIN CÔNG BỐ</span></a> <ul></ul></li><li><a class="a-title" href="javascript:;"><span>DỮ LIỆU THỊ TRƯỜNG</span></a> <ul><li><a class="a-content" href="/trai-phieu/ket-qua-gd-trong-ngay.html"><span>KQGD trong ngày</span></a></li> <li><a class="a-content" href="/trai-phieu/thong-ke-giao-dich.html"><span>Thống kê giao dịch</span></a></li> <li><a class="a-content" href="/trai-phieu/bang-chao-gia-trong-ngay.html"><span>Bảng chào giá trong ngày</span></a></li></ul></li><li><a class="a-title" href="javascript:;"><span>HỆ THỐNG CHỈ BÁO</span></a> <ul><li><a class="a-content" href="/trai-phieu/tong-quan-chi-so-trai-phieu.html"><span>Chỉ số Trái phiếu</span></a></li> <li><a class="a-content" href="/trai-phieu/duong-cong-loi-suat.html"><span>Đường cong lợi suất</span></a></li></ul></li><li><a class="a-title" href="javascript:;"><span>NIÊM YẾT</span></a> <ul><li><a class="a-content" href="/trai-phieu/danh-sach-trai-phieu.html"><span>Danh sách Trái phiếu</span></a></li> <li><a class="a-content" href="/trai-phieu/quy-mo-niem-yet.html"><span>Thống kê quy mô niêm yết</span></a></li></ul></li></ul></li><li><a href="/phai-sinh.html" style="display: block; text-align: center;"> CHỨNG KHOÁN PHÁI SINH </a> <ul class="ul-5-li"><li><a class="a-title" href="/phai-sinh/san-pham.html"><span>SẢN PHẨM</span></a> <ul></ul></li><li><a class="a-title" href="javascript:;"><span>DỮ LIỆU GIAO DỊCH</span></a> <ul><li><a class="a-content" href="/phai-sinh/ket-qua-giao-dich.html"><span>Kết quả giao dịch</span></a></li> <li><a class="a-content" href="/phai-sinh/thong-ke.html"><span>Thống kê</span></a></li></ul></li><li><a class="a-title" href="/phai-sinh/thong-tin-cong-bo.html"><span>THÔNG TIN CÔNG BỐ</span></a> <ul></ul></li></ul></li><li><a href="/van-ban-phap-ly.html" style="display: block; text-align: center;"> VĂN BẢN PHÁP LÝ </a> <ul class="ul-5-li"></ul></li></ul></div><div class="ul-index-1" id="TTChiSo"><div class="ul-index"><div class="font-bold">HNX30</div><div>516.24</div><div class="triangle-down" style="float: left;"></div><div>-0.47</div><div>(-0.09%)</div></div><div class="ul-index"><div class="font-bold">HNX Index</div><div>302.49</div><div class="triangle-up" style="float: left;"></div><div>2.4</div><div>(0.8%)</div></div><div class="ul-index"><div class="font-bold">UPCoM Index</div><div>126.35</div><div class="triangle-down" style="float: left;"></div><div>-0.06</div><div>(-0.05%)</div></div></div></div></div><div class="container-index-2"><div class="ul-index-2 marquee"><div class="marquee-content"><!--// nhân nhiều bản ghi để tránh bị đứt đoạn--><div class="index-2"><div>BVS</div><div>25.100</div><div class="triangle-down"></div><div>-100</div><div>(-0,4%)</div></div><div class="index-2"><div>CAP</div><div>46.700</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>CEO</div><div>15.100</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>DP3</div><div>61.900</div><div class="triangle-down"></div><div>-500</div><div>(-0,8%)</div></div><div class="index-2"><div>DTD</div><div>14.700</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>DVM</div><div>6.900</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>DXP</div><div>12.700</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>HUT</div><div>15.500</div><div class="triangle-down"></div><div>-100</div><div>(-0,64%)</div></div><div class="index-2"><div>IDC</div><div>43.500</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>IDV</div><div>22.000</div><div class="triangle-down"></div><div>-200</div><div>(-0,9%)</div></div><div class="index-2"><div>L14</div><div>21.500</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>L18</div><div>21.700</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>LAS</div><div>14.400</div><div class="triangle-down"></div><div>-100</div><div>(-0,69%)</div></div><div class="index-2"><div>LHC</div><div>90.700</div><div class="triangle-down"></div><div>-600</div><div>(-0,66%)</div></div><div class="index-2"><div>MBS</div><div>19.200</div><div class="triangle-up"></div><div>200</div><div>(1,05%)</div></div><div class="index-2"><div>NDN</div><div>10.600</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>NTP</div><div>49.900</div><div class="triangle-down"></div><div>-100</div><div>(-0,2%)</div></div><div class="index-2"><div>PLC</div><div>21.000</div><div class="triangle-down"></div><div>-100</div><div>(-0,47%)</div></div><div class="index-2"><div>PSD</div><div>16.000</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>PVB</div><div>25.100</div><div class="triangle-down"></div><div>-200</div><div>(-0,79%)</div></div><div class="index-2"><div>PVC</div><div>14.300</div><div class="triangle-down"></div><div>-100</div><div>(-0,69%)</div></div><div class="index-2"><div>PVS</div><div>38.500</div><div class="triangle-down"></div><div>-100</div><div>(-0,26%)</div></div><div class="index-2"><div>SHS</div><div>18.200</div><div class="triangle-down"></div><div>-100</div><div>(-0,55%)</div></div><div class="index-2"><div>SLS</div><div>150.000</div><div class="triangle-up"></div><div>2.000</div><div>(1,35%)</div></div><div class="index-2"><div>TMB</div><div>52.100</div><div class="triangle-down"></div><div>-300</div><div>(-0,57%)</div></div><div class="index-2"><div>TNG</div><div>18.900</div><div class="triangle-down"></div><div>-100</div><div>(-0,53%)</div></div><div class="index-2"><div>TVD</div><div>9.400</div><div class="triangle-down"></div><div>-100</div><div>(-1,05%)</div></div><div class="index-2"><div>VC3</div><div>26.600</div><div class="triangle-up"></div><div>300</div><div>(1,14%)</div></div><div class="index-2"><div>VCS</div><div>38.800</div><div class="triangle-up"></div><div>1.200</div><div>(3,19%)</div></div><div class="index-2"><div>VFS</div><div>10.300</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>BVS</div><div>25.100</div><div class="triangle-down"></div><div>-100</div><div>(-0,4%)</div></div><div class="index-2"><div>CAP</div><div>46.700</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>CEO</div><div>15.100</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>DP3</div><div>61.900</div><div class="triangle-down"></div><div>-500</div><div>(-0,8%)</div></div><div class="index-2"><div>DTD</div><div>14.700</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>DVM</div><div>6.900</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>DXP</div><div>12.700</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>HUT</div><div>15.500</div><div class="triangle-down"></div><div>-100</div><div>(-0,64%)</div></div><div class="index-2"><div>IDC</div><div>43.500</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>IDV</div><div>22.000</div><div class="triangle-down"></div><div>-200</div><div>(-0,9%)</div></div><div class="index-2"><div>L14</div><div>21.500</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>L18</div><div>21.700</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>LAS</div><div>14.400</div><div class="triangle-down"></div><div>-100</div><div>(-0,69%)</div></div><div class="index-2"><div>LHC</div><div>90.700</div><div class="triangle-down"></div><div>-600</div><div>(-0,66%)</div></div><div class="index-2"><div>MBS</div><div>19.200</div><div class="triangle-up"></div><div>200</div><div>(1,05%)</div></div><div class="index-2"><div>NDN</div><div>10.600</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>NTP</div><div>49.900</div><div class="triangle-down"></div><div>-100</div><div>(-0,2%)</div></div><div class="index-2"><div>PLC</div><div>21.000</div><div class="triangle-down"></div><div>-100</div><div>(-0,47%)</div></div><div class="index-2"><div>PSD</div><div>16.000</div><div class="square"></div><div>0</div><div>(0%)</div></div><div class="index-2"><div>PVB</div><div>25.100</div><div class="triangle-down"></div><div>-200</div><div>(-0,79%)</div></div><div class="index-2"><div>PVC</div><div>14.300</div><div class="triangle-down"></div><div>-100</div><div>(-0,69%)</div></div><div class="index-2"><div>PVS</div><div>38.500</div><div class="triangle-down"></div><div>-100</div><div>(-0,26%)</div></div><div class="index-2"><div>SHS</div><div>18.200</div><div class="triangle-down"></div><div>-100</div><div>(-0,55%)</div></div><div class="index-2"><div>SLS</div><div>150.000</div><div class="triangle-up"></div><div>2.000</div><div>(1,35%)</div></div><div class="index-2"><div>TMB</div><div>52.100</div><div class="triangle-down"></div><div>-300</div><div>(-0,57%)</div></div><div class="index-2"><div>TNG</div><div>18.900</div><div class="triangle-down"></div><div>-100</div><div>(-0,53%)</div></div><div class="index-2"><div>TVD</div><div>9.400</div><div class="triangle-down"></div><div>-100</div><div>(-1,05%)</div></div><div class="index-2"><div>VC3</div><div>26.600</div><div class="triangle-up"></div><div>300</div><div>(1,14%)</div></div><div class="index-2"><div>VCS</div><div>38.800</div><div class="triangle-up"></div><div>1.200</div><div>(3,19%)</div></div><div class="index-2"><div>VFS</div><div>10.300</div><div class="square"></div><div>0</div><div>(0%)</div></div></div></div></div></div>
+
+
+
+
+<style>
+
+    #wrapper-header {
+        z-index: 10000; /* Đảm bảo slider ở trên marquee */
+    }
+
+    #wrapper-content {
+        z-index: 999; /* Marquee nằm dưới slider */
+    }
+
+    .ui-autocomplete {
+        position: fixed;
+        z-index: 1004 !important;
+        background: #fff !important;
+        width: 245px !important;
+        max-height: 150px !important;
+        overflow: auto !important;
+    }
+
+    .clsCheck {
+        color: #daa520;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        // Mở div .advanced_search_menu khi click vào input #g_txt_search
+        $("#g_txt_search").on("click", function () {
+            $(".advanced_search_menu").css("display", "flex");
+        });
+
+        // Ẩn div .advanced_search_menu khi blur khỏi input #g_txt_search
+        $("#g_txt_search").on("blur", function () {
+            // Sử dụng setTimeout để trì hoãn việc ẩn để người dùng có thể click vào .advanced_search_menu
+            setTimeout(function () {
+                if (!$(".advanced_search_menu:hover").length) {
+                    $(".advanced_search_menu").css("display", "none");
+                }
+            }, 100);
+        });
+
+        // Đảm bảo khi người dùng click vào .advanced_search_menu, thì nó không bị ẩn
+        $(".advanced_search_menu").on("click", function (e) {
+            e.stopPropagation(); // Ngừng sự kiện "click" lan ra ngoài để không ẩn div
+        });
+    });
+
+
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 0) {
+            $("#wrapper-header").addClass("active");
+        }
+        else {
+            $("#wrapper-header").removeClass("active");
+        }
+    });
+
+    $(document).mousedown(function (e) {
+        e = e || window.event;
+        var key = e.which || e.buttons;
+        if (key == 1 && !$("#div_search_contain").is(':hover') && !$(".box_search").is(':hover')) {
+            //$(".box_search").addClass("cls_display_none");
+            //$("#box_search_menu").siblings().removeClass('btn_search_menu');
+        }
+    });
+
+    $(function () {
+        var mn_active = $("#menuActiveSearch").val();
+        if (mn_active != "") {
+            $("#MN_" + mn_active).addClass("menu_active");
+        }
+    });
+
+
+    function OpenBoxSearch() {
+        try {
+
+            if ($("#box_search_menu").hasClass("cls_display_none")) {
+                $("#box_search_menu").removeClass("cls_display_none");
+                $("#box_search_menu").siblings().addClass('btn_search_menu');
+                $("#g_txt_search").val("");
+                $("#g_txt_search").focus();
+            } else {
+                $("#box_search_menu").addClass("cls_display_none");
+                $("#box_search_menu").siblings().removeClass('btn_search_menu');
+            }
+        }
+        catch (e) {
+        }
+    }
+
+
+    $("#g_txt_search").keypress(function (e) {
+       
+        if (e.keyCode == 13) {
+            if ($("#g_NewsOnSearchSuggest").is(":checked") == true) {
+
+                funcSearchOnPageHNX();
+            } else {
+                //window.location.href = "/cophieu-etfs/chi-tiet-chung-khoan-ny-" + $("#g_txt_search").val().toLowerCase() + ".html";
+                window.location.href = "/cophieu-etfs/chi-tiet-chung-khoan-" + $("#g_txt_search").val().toLowerCase() + ".html";
+            }
+        }
+    });
+
+
+
+    $("#g_btn_search").click(function () {
+       
+        if ($("#g_NewsOnSearchSuggest").is(":checked") == true) {
+            funcSearchOnPageHNX();
+        } else {
+
+            //window.location.href = "/cophieu-etfs/chi-tiet-chung-khoan-ny-" + $("#g_txt_search").val().toLowerCase() + ".html";
+            window.location.href = "/cophieu-etfs/chi-tiet-chung-khoan-" + $("#g_txt_search").val().toLowerCase() + ".html";
+        }
+    });
+
+    function funcSearchOnPageHNX() {
+        try {
+            var keysearch = $('#g_txt_search').val();
+            if (keysearch != "") {
+                keysearch = keysearch.replace(/!|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\;|\'| |\"|\&|\#|\[|\]|~|$|_/g, " ");
+            }
+            if (keysearch != "") {
+                var url = "/ket-qua-tim-kiem.html?key=" + keysearch;
+                window.location.href = url;
+            }
+        } catch (e) {
+            console.log(e.message);
+        }
+    }
+
+    $("input#g_txt_search").autocomplete({
+        autoFocus: true,
+        source: function (request, response) {
+            if ($("#g_MaCKOnSearchSuggest").is(":checked") == true) { //neu la chung khoan thi moi cho search autogest
+                $.ajax({
+                    type: 'GET',
+                    url: "/ModuleSearchALL/SearchDataHNX/SearchSuggestSymbol",
+                    dataType: "json",
+                    data: { pSymbol: $("#g_txt_search").val().trim(), },
+                    success: function (data) {
+                        response($.map(data, function (item) {
+                            //calcDropdownPosition();
+                            return { label: item.STOCK_CODE + " - " + item.NAME, value: item.Link_To_Detail, }
+                        }));
+                        //calcDropdownPosition();
+                    },
+                    error: function (data, type) {
+                        console.log(type);
+                    },
+                    complete: function () {
+                        //calcDropdownPosition();
+                        console.log("Request complete");
+                    }
+                });
+            }
+        },
+        select: function (event, data) {
+            window.location.href = "/cophieu-etfs/chi-tiet-chung-khoan-" + data.item.value.toLowerCase() + ".html";
+
+        }
+    });
+
+    $.ui.autocomplete.prototype._renderItem = function (ul, item) {
+        var re = new RegExp("" + this.term.toUpperCase());
+        var t = item.label.replace(re, "<span class='clsCheck'>" +
+            this.term.toUpperCase() +
+            "</span>");
+
+        return $("<li></li>")
+            .data("item.autocomplete", item)
+            .append("<a>" + t + "</a>")
+            .appendTo(ul);
+    };
+
+    function calcDropdownPosition() {
+
+        const parentElement = document.querySelector('#box_search_menu');
+        const dropdownElement = document.querySelector('.ui-autocomplete');
+
+        if (parentElement && dropdownElement) {
+            const parentRect = parentElement.getBoundingClientRect();
+
+            const top = parentRect.bottom;
+            const left = parentRect.left;
+
+            //dropdownElement.style.display = 'block';
+            dropdownElement.style.top = top + 26 + "px";
+            dropdownElement.style.left = left + "px";
+        } else {
+            setTimeout(calcDropdownPosition, 250);
+
+        }
+    }
+
+    const appreceivedChiSo = Vue.createApp({
+        data() {
+            return {
+                message: 'hello',
+                lstDataChiSo: [],
+                lstDataSymbol: [],
+                intervalId: null, // Store interval ID to clear later
+            };
+        },
+        created() {
+            // Gọi hàm fetchData ngay khi component được tạo
+            this.loadMemdataChiSo();
+        },
+        mounted() {
+            this.loadMemdataChiSo();
+            this.startContentRotation();
+        },
+
+        beforeDestroy() {
+            // Clear the interval when component is destroyed to avoid memory leaks
+            clearInterval(this.intervalId);
+        },
+
+
+        methods: {
+            loadMemdataChiSo() {
+                $.ajax({
+                    type: 'POST',
+                    url: '/Home/GetDataChiSo',
+                    data: {},
+                    cache: false,
+                    traditional: true,
+                    beforeSend: function () {
+                        // Có thể thêm loading spinner ở đây nếu cần
+                    },
+                    success: (data) => { // Sử dụng arrow function để giữ `this`
+                        const _lstDataChiSo = data.dataIndex;
+                        const _lstDataSymbol = data.dataSymbol;
+                        // Gán dữ liệu vào thuộc tính của Vue instance
+                        this.lstDataChiSo = JSON.parse(_lstDataChiSo);
+                        this.lstDataSymbol = JSON.parse(_lstDataSymbol);
+
+                    },
+                    error: (xhr, status, error) => {
+                        console.error('Có lỗi xảy ra:', error);
+                    }
+                });
+            },
+
+            startContentRotation() {
+                this.intervalId = setInterval(() => {
+                    this.loadMemdataChiSo();  // Ensure `this` context is correct
+                }, 60000);
+            }
+
+
+
+        },
+
+    });
+    const vueReceivedChiSo = appreceivedChiSo.mount('#header');
+</script>
+
+<script>
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 0) {
+            $("#wrapper-header").addClass("active");
+        }
+        else {
+            $("#wrapper-header").removeClass("active");
+        }
+    });
+
+    $(document).mousedown(function (e) {
+        e = e || window.event;
+        var key = e.which || e.buttons;
+        if (key == 1 && !$("#div_search_contain").is(':hover') && !$(".box_search").is(':hover')) {
+            //$(".box_search").addClass("cls_display_none");
+            //$("#box_search_menu").siblings().removeClass('btn_search_menu');
+        }
+    });
+
+    $(function () {
+        var mn_active = $("#menuActiveSearch").val();
+        if (mn_active != "") {
+            $("#MN_" + mn_active).addClass("menu_active");
+        }
+    });
+
+    //function OpenBoxSearch() {
+    //    try {
+
+    //        if ($("#box_search_menu").hasClass("cls_display_none")) {
+    //            $("#box_search_menu").removeClass("cls_display_none");
+    //            $("#box_search_menu").siblings().addClass('btn_search_menu');
+    //            $("#g_txt_search").val("");
+    //            $("#g_txt_search").focus();
+    //        } else {
+    //            $("#box_search_menu").addClass("cls_display_none");
+    //            $("#box_search_menu").siblings().removeClass('btn_search_menu');
+    //        }
+    //    }
+    //    catch (e) {
+    //    }
+    //}
+
+
+    $("#g_txt_search").keypress(function (e) {
+        if (e.keyCode == 13) {
+            if ($("#g_NewsOnSearchSuggest").is(":checked") == true) {
+
+                funcSearchOnPageHNX();
+            } else {
+                //window.location.href = "/cophieu-etfs/chi-tiet-chung-khoan-ny-" + $("#g_txt_search").val().toLowerCase() + ".html";
+                window.location.href = "/cophieu-etfs/chi-tiet-chung-khoan-" + $("#g_txt_search").val().toLowerCase() + ".html";
+            }
+        }
+    });
+
+    $("#g_btn_search").click(function () {
+        if ($("#g_NewsOnSearchSuggest").is(":checked") == true) {
+            funcSearchOnPageHNX();
+        } else {
+
+            //window.location.href = "/cophieu-etfs/chi-tiet-chung-khoan-ny-" + $("#g_txt_search").val().toLowerCase() + ".html";
+            window.location.href = "/cophieu-etfs/chi-tiet-chung-khoan-" + $("#g_txt_search").val().toLowerCase() + ".html";
+        }
+    });
+
+    function funcSearchOnPageHNX() {
+        try {
+            var keysearch = $('#g_txt_search').val();
+            if (keysearch != "") {
+                keysearch = keysearch.replace(/!|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\;|\'| |\"|\&|\#|\[|\]|~|$|_/g, " ");
+            }
+            if (keysearch != "") {
+                var url = "/ket-qua-tim-kiem.html?key=" + keysearch;
+                window.location.href = url;
+            }
+        } catch (e) {
+            console.log(e.message);
+        }
+    }
+
+    $("input#g_txt_search").autocomplete({
+        autoFocus: true,
+        source: function (request, response) {
+            if ($("#g_MaCKOnSearchSuggest").is(":checked") == true) { //neu la chung khoan thi moi cho search autogest
+                $.ajax({
+                    type: 'GET',
+                    url: "/ModuleSearchALL/SearchDataHNX/SearchSuggestSymbol",
+                    dataType: "json",
+                    data: { pSymbol: $("#g_txt_search").val().trim(), },
+                    success: function (data) {
+                        response($.map(data, function (item) {
+                            //calcDropdownPosition();
+                            return { label: item.STOCK_CODE + " - " + item.NAME, value: item.Link_To_Detail, }
+                        }));
+                        //calcDropdownPosition();
+                    },
+                    error: function (data, type) {
+                        console.log(type);
+                    },
+                    complete: function () {
+                        //calcDropdownPosition();
+                        console.log("Request complete");
+                    }
+                });
+            }
+        },
+        select: function (event, data) {
+            window.location.href = "/cophieu-etfs/chi-tiet-chung-khoan-" + data.item.value.toLowerCase() + ".html";
+
+        }
+    });
+
+    $.ui.autocomplete.prototype._renderItem = function (ul, item) {
+        var re = new RegExp("" + this.term.toUpperCase());
+        var t = item.label.replace(re, "<span class='clsCheck'>" +
+            this.term.toUpperCase() +
+            "</span>");
+
+        return $("<li></li>")
+            .data("item.autocomplete", item)
+            .append("<a>" + t + "</a>")
+            .appendTo(ul);
+    };
+
+    //function calcDropdownPosition() {
+
+    //    const parentElement = document.querySelector('#box_search_menu');
+    //    const dropdownElement = document.querySelector('.ui-autocomplete');
+
+    //    if (parentElement && dropdownElement) {
+    //        const parentRect = parentElement.getBoundingClientRect();
+
+    //        const top = parentRect.bottom;
+    //        const left = parentRect.left;
+
+    //        //dropdownElement.style.display = 'block';
+    //        dropdownElement.style.top = top + 26 + "px";
+    //        dropdownElement.style.left = left + "px";
+    //    } else {
+    //        setTimeout(calcDropdownPosition, 250);
+
+    //    }
+    //}
+
+
+</script>
+
+                    </div>
+                    <!-- #header -->
+
+                    <div id="wrapper-content">
+                        <div class="content">
+                            
+
+
+
+<style>
+    .classSlide_1 {
+        width: 1000px;
+        height: 500px;
+    }
+
+    .no-found-note {
+        padding: 10px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+        .no-found-note p, .no-found-note a {
+            font-size: 24px;
+        }
+
+        .no-found-note a {
+            text-decoration: underline;
+            color: #156701;
+        }
+
+    #wrapper-content {
+        min-height: 100vh;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .content {
+        min-height: auto;
+    }
+</style>
+
+
+
+<div class="no-found-note">
+        <p>Không tìm thấy đường dẫn này.</p>
+        <p>Bạn có thể truy cập vào <a href="/">Trang chủ</a></p>
+</div>
+
+<script>
+    jssor_slider_init($("#txtTimeNextSlide").val(), 'jssor_1');
+
+    if (Request.Cookies["__RequestVerificationToken_4TPT"] != null)
+    {
+        var c = new HttpCookie("__RequestVerificationToken_4TPT")
+        {
+            Expires = DateTime.Now.AddDays(-1)
+        };
+        Response.Cookies.Add(c);
+    }
+</script>
+
+                        </div>
+                    </div>
+                    <!-- #content -->
+                    <div id="wrapper-footer">
+                        <div class="containMenuFooter">
+    <div class="footer-note">
+        <ul>
+            <li class="f-small">
+                <ul>
+                    <li class="li-title">DỊCH VỤ</li>
+                    <li class="li-content" style="padding-top: 10px;"><a href="/thong-tin-nha-dau-tu-gt.html">Thông tin nhà đầu tư</a></li>
+                    <li class="li-content"><a href="/trung-tam-truyen-thong-bc.html">Trung tâm truyền thông</a></li>
+                    <li class="li-content"><a href="/huong-dan-thu-tuc.html">Hướng dẫn thủ tục</a></li>
+                    <li class="li-content"><a href="/dich-vu-cctt.html" target="_blank">Dịch vụ cung cấp thông tin</a></li>
+                </ul>
+            </li>
+            <li class="f-small">
+                <ul>
+                    <li class="li-title">TIN TỨC</li>
+                    <li class="li-content" style="padding-top: 10px;"><a href="/tin-tuc-su-kien-hnx.html">Hoạt động sự kiện</a></li>
+                    <li class="li-content"><a href="/tin-tuc-su-kien-hdxh.html">Hoạt động xã hội</a></li>
+                    <li class="li-content"><a href="/tin-tuc-su-kien-sk.html">Lịch sự kiện HNX</a></li>
+                    <li class="li-content"><a href="/tin-tuc-su-kien-gd.html">Lịch nghỉ giao dịch</a></li>
+                </ul>
+            </li>
+            <li class="f-small">
+                <ul>
+                    <li class="li-title">KẾT NỐI</li>
+                    <li class="li-content" style="padding-top: 10px;">
+                        <a target="_blank" href="https://www.facebook.com/HanoiStockExchange2005/?fref=ts" class="link_facebook facebook">Facebook</a>
+                    </li>
+                    
+                    
+                </ul>
+            </li>
+            <li class="f-small">
+                <ul>
+                    <li class="li-title">LIÊN KẾT</li>
+                    <li class="li-content" style="padding-top: 10px;">
+                        
+<div id="divLKDT" style="position: relative; margin: 0px auto; top: 0px; left: 0px; width: 258px; height: 100px; overflow: hidden; visibility: visible;" jssor-slider="true">
+    
+<div style="position: absolute; top: 0px; left: 0px; width: 258px; height: 100px; transform-origin: 0px 0px; transform: scale(1);"><div class="" style="position: relative; margin: 0px auto; top: 0px; left: 0px; width: 258px; height: 100px; overflow: visible; visibility: visible; display: block;"><div data-u="slides" style="cursor: default; position: absolute; top: 0px; left: 0px; width: 280px; height: 100px; overflow: hidden; z-index: 0;"><div style="position: absolute; z-index: 0; pointer-events: none; left: -90px; top: 0px;"></div></div><div data-u="slides" style="cursor: default; position: absolute; top: 0px; left: 0px; width: 280px; height: 100px; overflow: hidden; z-index: 0;"><div style="width: 230px; height: 100px; top: 0px; left: 0px; position: absolute; background-color: rgb(0, 0, 0); opacity: 0;"></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -90px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\620012017045320.jpg" target="_blank" onclick="return funcClick('http://www.idx.co.id')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: 140px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\1120012017045508.jpg" target="_blank" onclick="return funcClick('http://www.pse.com.ph')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\1720012017045440.jpg" target="_blank" onclick="return funcClick('http://www.twse.com.tw')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\1320012017044544.jpg" target="_blank" onclick="return funcClick('http://www.sgx.com')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\120012017050111.jpg" target="_blank" onclick="return funcClick('http://www.bursamalaysia.com')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\420012017050152.jpg" target="_blank" onclick="return funcClick('http://www.euronext.com')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\1020012017050134.jpg" target="_blank" onclick="return funcClick('http://www.londonstockexchange.com')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\820012017050221.jpg" target="_blank" onclick="return funcClick('http://www.krx.co.kr')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\1220012017045619.jpg" target="_blank" onclick="return funcClick('http://www.set.or.th')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\720012017045635.jpg" target="_blank" onclick="return funcClick('http://www.jpx.co.jp')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\imgpsh_fullsize20012017055150.jpg" target="_blank" onclick="return funcClick('http://www.szse.cn')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\1420012017045729.jpg" target="_blank" onclick="return funcClick('http://www.sse.com.cn')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\920012017045747.jpg" target="_blank" onclick="return funcClick('http://www.lsx.com.la')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\1520012017045806.jpg" target="_blank" onclick="return funcClick('http://www.taifex.com.tw')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\220012017050028.jpg" target="_blank" onclick="return funcClick('http://http://www.bsse.sk')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\320012017050041.jpg" target="_blank" onclick="return funcClick('http://csx.com.kh')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\520012017045532.jpg" target="_blank" onclick="return funcClick('http://www.hkex.com.hk')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+        <div style="width: 230px; height: 100px; top: 0px; left: -230px; position: absolute; overflow: hidden;">
+                <img src="https://owa.hnx.vn/ftp//PORTALNEW/SLIDE_COMPANIES\1620012017045414.jpg" target="_blank" onclick="return funcClick('http://www.tpex.org.tw')">
+        <div style="width: 230px; height: 100px; top: 0px; left: 0px; z-index: 1000; display: none;"></div></div>
+    </div></div></div></div>
+<script>
+    function funcClick(href) {
+        return window.open(href, '_blank');
+    }
+</script>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-contact" style="width: 986px;">
+        <span class="footer-contact-left">
+            <span style="display: block; margin-top: 10px;">Liên hệ với Sở Giao dịch Chứng khoán Hà Nội khi phát hành thông tin từ Website này.</span>
+            <span style="display: block; margin-top: 5px;">Giấy phép số 151/GP-BC ngày 29/08/2005 của Cục Báo chí, Bộ Văn hóa TT về cung cấp thông tin lên mạng Internet.</span>
+        </span>
+        <span class="footer-contact-right">
+            <span style="display: block; margin-top: 10px;">
+                <a href="/thuat-ngu.html">Thuật ngữ</a>
+                &nbsp;|&nbsp;<a href="/hoi-dap.html">FAQs</a>
+                &nbsp;|&nbsp;<a href="/cau-truc-website.html">Cấu trúc website</a>
+                &nbsp;|&nbsp;<a href="/lien-he.html">Liên hệ</a>
+                &nbsp;|&nbsp;<a href="/ban-do.html">Bản đồ</a>
+                &nbsp;|&nbsp;<a href="/khuyen-cao.html">Khuyến cáo</a>
+                &nbsp;|&nbsp;<a href="/rss.html">RSS</a>
+            </span>
+                
+        </span>
+    </div>
+    <div class="footer-company">
+        <span style="display: block; margin-top: 10px;">© 2016 Bản quyển thuộc "Sở Giao dịch Chứng khoán Hà Nội".</span>
+    </div>
+</div>
+<script>
+    jssorSlideNoResize('divLKDT', 10000, 230, 100);
+</script>
+
+                        <!-- #footer -->
+                    </div>
+
+                </div><ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 100; top: 0px; left: 0px; display: none;"></ul><ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 100; top: 0px; left: 0px; display: none;"></ul>
+                <!-- #wrapper -->
+
+            
+        
+</body></html>

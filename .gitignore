@@ -1,0 +1,24 @@
+# Virtualenv
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Playwright browsers cache (if installed locally)
+.cache/
+ms-playwright/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Spike raw samples are intentionally COMMITTED (they document each source),
+# so spikes/samples/ is NOT ignored. Only ignore ad-hoc scratch dumps:
+spikes/samples/_scratch/
+*.log

@@ -1,0 +1,57 @@
+[
+  {
+    "code": "VCB",
+    "firm": "VCS",
+    "type": "BUY",
+    "reportDate": "2026-06-02",
+    "source": "BLOOMBERG",
+    "analyst": "Quan Vu",
+    "reportPrice": 61.6,
+    "targetPrice": 78.5,
+    "avgTargetPrice": 77.62583333333333
+  },
+  {
+    "code": "VCB",
+    "firm": "Yuanta",
+    "type": "BUY",
+    "reportDate": "2026-05-15",
+    "source": "BLOOMBERG",
+    "analyst": "Tanh Tran",
+    "reportPrice": 60.7,
+    "targetPrice": 75.03,
+    "avgTargetPrice": 77.62583333333333
+  },
+  {
+    "code": "VCB",
+    "firm": "NHSV",
+    "type": "BUY",
+    "reportDate": "2026-05-15",
+    "source": "BLOOMBERG",
+    "analyst": "Team Coverage",
+    "reportPrice": 60.7,
+    "targetPrice": 72.0,
+    "avgTargetPrice": 77.62583333333333
+  },
+  {
+    "code": "VCB",
+    "firm": "Jefferies",
+    "type": "BUY",
+    "reportDate": "2026-05-14",
+    "source": "BLOOMBERG",
+    "analyst": "Joanna Cheah",
+    "reportPrice": 61.0,
+    "targetPrice": 78.38,
+    "avgTargetPrice": 77.62583333333333
+  },
+  {
+    "code": "VCB",
+    "firm": "SBB",
+    "type": "BUY",
+    "reportDate": "2026-05-05",
+    "source": "BLOOMBERG",
+    "analyst": "Ngoc Han Ngo",
+    "reportPrice": 59.9,
+    "targetPrice": 74.8,
+    "avgTargetPrice": 77.62583333333333
+  }
+]

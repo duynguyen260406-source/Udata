@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(py *)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe -m pip install --upgrade pip --quiet; .\\\\.venv\\\\Scripts\\\\python.exe -m pip install -r requirements.txt 2>&1 | Select-Object -Last 15)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_vndirect.py)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_vneconomy.py)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_baodautu.py)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_tinnhanhchungkhoan.py)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_vietstock.py)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_cbtt.py)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe -m playwright install chromium 2>&1 | Select-Object -Last 8)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_cbtt.py --playwright 2>&1 | Select-Object -Last 25)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_compliance.py 2>&1)",
+      "WebSearch",
+      "WebFetch(domain:www.vndirect.com.vn)",
+      "WebFetch(domain:vneconomy.vn)",
+      "WebFetch(domain:vietstock.vn)",
+      "WebFetch(domain:www.tinnhanhchungkhoan.vn)",
+      "PowerShell(Get-ChildItem spikes\\\\samples\\\\robots | Select-Object Name, @{N='Bytes';E={$_.Length}} | Sort-Object Name)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe -m pip install pdfplumber --quiet 2>&1 | Select-Object -Last 4)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_dt_cbtt.py)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_dt_news.py)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_dt_resolution.py)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_dt_research.py)",
+      "PowerShell(Get-ChildItem spikes\\\\samples -File | Where-Object { $_.Name -match 'cbtt_sample|news_sample|resolution_sample|research' } | Select-Object Name, @{N='KB';E={[math]::Round\\($_.Length/1KB,1\\)}} | Sort-Object Name)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe spikes\\\\spike_ticker.py VCB)"
+    ]
+  }
+}
